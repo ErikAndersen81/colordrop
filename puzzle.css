@@ -1,0 +1,56 @@
+body {
+    background-image: url("circles.svg");
+    background-size: auto 100vh;
+}
+
+.room {
+    color: #889;
+    fill: currentColor;
+    stroke: #001;
+    stroke-width: 3px;
+}
+
+.door {
+    color: #889;
+    fill: currentColor;
+}
+
+.closed {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.clickable {
+    cursor: url("hand.png"), auto;;
+}
+
+.active {
+  stroke: #000;
+}
+
+.light {
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.slot {
+    stroke: #000;
+    stroke-width: 1.5px;
+}
+
+.grabbed {
+    stroke: #000;
+    cursor: none;
+}
+
+.stop-left {
+    stop-color: #5f73d7;  /* Indigo */
+}
+
+.stop-right {
+    stop-color: #33b8aa;  /* Teal */
+}
+
+.filled {
+    fill: url(#mainGradient);
+}

@@ -1,0 +1,5833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="262.2995mm"
+   height="209.67567mm"
+   viewBox="0 0 262.2995 209.67567"
+   version="1.1"
+   id="svg8"
+   enable-background="new"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="circles.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26211">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26203" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26205" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26207" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26209" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26221">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26213" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26215" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26217" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26219" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26231">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26223" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26225" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26227" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26229" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26241">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26233" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26235" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26237" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26239" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26251">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26243" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26245" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26247" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26249" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26261">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26253" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26255" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26257" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26259" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26271">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26263" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26265" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26267" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26269" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26281">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26273" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26275" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26277" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26279" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26291">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26283" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26285" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26287" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26289" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26301">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26293" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26295" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26297" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26299" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26311">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26303" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26305" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26307" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26309" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26321">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26313" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26315" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26317" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26319" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26331">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26323" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26325" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26327" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26329" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26341">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26333" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26335" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26337" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26339" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26351">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26343" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26345" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26347" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26349" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26361">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26353" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26355" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26357" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26359" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26371">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26363" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26365" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26367" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26369" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26381">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26373" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26375" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26377" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26379" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26391">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26383" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26385" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26387" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26389" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26401">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26393" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26395" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26397" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26399" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26411">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26403" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26405" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26407" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26409" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26421">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26413" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26415" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26417" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26419" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26431">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26423" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26425" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26427" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26429" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26441">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26433" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26435" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26437" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26439" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26451">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26443" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26445" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26447" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26449" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26461">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26453" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26455" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26457" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26459" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26471">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26463" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26465" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26467" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26469" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26481">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26473" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26475" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26477" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26479" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26491">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26483" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26485" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26487" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26489" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26501">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26493" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26495" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26497" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26499" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26511">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26503" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26505" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26507" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26509" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26521">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26513" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26515" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26517" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26519" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26531">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26523" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26525" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26527" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26529" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26541">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26533" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26535" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26537" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26539" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26551">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26543" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26545" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26547" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26549" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26561">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26553" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26555" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26557" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26559" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26571">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26563" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26565" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26567" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26569" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26581">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26573" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26575" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26577" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26579" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26591">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26583" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26585" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26587" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26589" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26601">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26593" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26595" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26597" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26599" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26611">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26603" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26605" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26607" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26609" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26621">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26613" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26615" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26617" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26619" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26631">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26623" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26625" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26627" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26629" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26641">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26633" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26635" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26637" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26639" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26651">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26643" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26645" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26647" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26649" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26661">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26653" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26655" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26657" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26659" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26671">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26663" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26665" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26667" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26669" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26681">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26673" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26675" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26677" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26679" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26691">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26683" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26685" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26687" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26689" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26701">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26693" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26695" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26697" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26699" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26711">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26703" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26705" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26707" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26709" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26721">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26713" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26715" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26717" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26719" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26731">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26723" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26725" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26727" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26729" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26741">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26733" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26735" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26737" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26739" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26751">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26743" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26745" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26747" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26749" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26761">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26753" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26755" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26757" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26759" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26771">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26763" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26765" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26767" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26769" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26781">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26773" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26775" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26777" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26779" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26791">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26783" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26785" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26787" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26789" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26801">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26793" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26795" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26797" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26799" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26811">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26803" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26805" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26807" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26809" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26821">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26813" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26815" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26817" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26819" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26831">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26823" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26825" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26827" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26829" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26841">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26833" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26835" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26837" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26839" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26851">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26843" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26845" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26847" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26849" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26861">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26853" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26855" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26857" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26859" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26871">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26863" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26865" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26867" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26869" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26881">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26873" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26875" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26877" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26879" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26891">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26883" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26885" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26887" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26889" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26901">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26893" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26895" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26897" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26899" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26911">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26903" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26905" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26907" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26909" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26921">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26913" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26915" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26917" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26919" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26931">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26923" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26925" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26927" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26929" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26941">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26933" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26935" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26937" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26939" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26951">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26943" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26945" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26947" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26949" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26961">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26953" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26955" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26957" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26959" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26971">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26963" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26965" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26967" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26969" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26981">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26973" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26975" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26977" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26979" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter26991">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26983" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26985" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26987" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26989" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27001">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur26993" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur26995" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite26997" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend26999" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27011">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27003" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27005" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27007" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27009" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27021">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27013" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27015" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27017" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27019" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27031">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27023" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27025" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27027" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27029" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27041">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27033" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27035" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27037" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27039" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27051">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27043" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27045" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27047" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27049" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27061">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27053" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27055" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27057" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27059" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27071">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27063" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27065" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27067" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27069" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27081">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27073" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27075" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27077" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27079" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27091">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27083" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27085" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27087" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27089" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27101">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27093" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27095" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27097" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27099" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27111">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27103" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27105" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27107" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27109" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27121">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27113" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27115" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27117" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27119" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27131">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27123" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27125" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27127" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27129" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27141">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27133" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27135" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27137" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27139" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27151">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27143" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27145" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27147" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27149" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27161">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27153" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27155" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27157" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27159" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27171">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27163" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27165" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27167" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27169" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27181">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27173" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27175" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27177" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27179" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27191">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27183" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27185" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27187" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27189" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27201">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27193" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27195" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27197" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27199" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27211">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27203" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27205" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27207" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27209" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27221">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27213" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27215" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27217" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27219" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27231">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27223" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27225" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27227" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27229" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27241">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27233" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27235" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27237" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27239" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27251">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27243" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27245" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27247" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27249" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27261">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27253" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27255" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27257" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27259" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27271">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27263" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27265" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27267" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27269" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27281">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27273" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27275" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27277" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27279" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27291">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27283" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27285" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27287" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27289" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27301">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27293" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27295" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27297" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27299" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27311">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27303" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27305" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27307" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27309" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27321">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27313" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27315" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27317" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27319" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27331">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27323" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27325" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27327" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27329" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27341">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27333" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27335" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27337" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27339" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27351">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27343" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27345" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27347" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27349" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27361">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27353" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27355" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27357" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27359" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27371">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27363" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27365" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27367" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27369" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27381">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27373" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27375" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27377" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27379" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27391">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27383" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27385" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27387" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27389" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27401">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27393" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27395" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27397" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27399" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27411">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27403" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27405" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27407" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27409" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27421">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27413" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27415" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27417" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27419" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27431">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27423" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27425" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27427" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27429" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27441">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27433" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27435" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27437" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27439" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27451">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27443" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27445" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27447" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27449" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27461">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27453" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27455" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27457" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27459" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27471">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27463" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27465" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27467" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27469" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27481">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27473" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27475" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27477" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27479" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27491">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27483" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27485" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27487" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27489" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27501">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27493" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27495" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27497" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27499" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27511">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27503" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27505" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27507" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27509" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27521">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27513" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27515" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27517" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27519" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27531">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27523" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27525" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27527" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27529" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27541">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27533" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27535" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27537" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27539" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27551">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27543" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27545" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27547" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27549" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27561">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27553" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27555" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27557" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27559" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27571">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27563" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27565" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27567" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27569" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27581">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27573" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27575" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27577" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27579" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27591">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27583" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27585" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27587" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27589" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27601">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27593" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27595" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27597" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27599" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27611">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27603" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27605" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27607" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27609" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27621">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27613" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27615" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27617" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27619" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27631">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27623" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27625" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27627" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27629" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27641">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27633" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27635" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27637" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27639" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27651">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27643" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27645" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27647" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27649" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27661">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27653" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27655" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27657" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27659" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27671">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27663" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27665" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27667" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27669" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27681">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27673" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27675" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27677" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27679" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27691">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27683" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27685" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27687" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27689" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27701">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27693" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27695" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27697" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27699" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27711">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27703" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27705" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27707" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27709" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27721">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27713" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27715" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27717" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27719" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27731">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27723" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27725" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27727" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27729" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27741">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27733" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27735" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27737" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27739" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27751">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27743" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27745" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27747" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27749" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27761">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27753" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27755" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27757" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27759" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27771">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27763" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27765" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27767" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27769" />
+    </filter>
+    <filter
+       inkscape:label="Blur Double"
+       inkscape:menu="Blurs"
+       inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27781">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="fbSourceGraphic"
+         id="feGaussianBlur27773" />
+      <feGaussianBlur
+         stdDeviation="0.01"
+         in="SourceGraphic"
+         result="result1"
+         id="feGaussianBlur27775" />
+      <feComposite
+         in2="result1"
+         operator="arithmetic"
+         in="fbSourceGraphic"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         id="feComposite27777" />
+      <feBlend
+         in2="fbSourceGraphic"
+         mode="normal"
+         result="result3"
+         id="feBlend27779" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="408.97224"
+     inkscape:cy="402.81665"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="back"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:0.71348314;fill:#bcecfc;fill-opacity:1;stroke-width:0.26458332"
+       id="rect618"
+       width="262.99323"
+       height="210.87567"
+       x="0"
+       y="0.13636096" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(35.513787,20.830615)"
+     style="">
+    <circle
+       style="opacity:0.71348314;fill:#00b4f4;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27781)"
+       id="path16-3"
+       cx="-193.21291"
+       cy="25.451876"
+       r="15.497025"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#5cfcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27771)"
+       id="path20-7"
+       cx="-154.65932"
+       cy="6.553072"
+       r="11.717261"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27761)"
+       id="path22-5"
+       cx="-171.66826"
+       cy="58.335831"
+       r="6.0476193"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#5cd8fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27751)"
+       id="path24-3"
+       cx="-145.58791"
+       cy="118.43404"
+       r="12.473214"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#0068e0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27741)"
+       id="path26-5"
+       cx="-199.6385"
+       cy="108.22868"
+       r="10.583333"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00ffff;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27731)"
+       id="path28-6"
+       cx="-192.07896"
+       cy="84.038193"
+       r="12.095239"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#008cec;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27721)"
+       id="path30-2"
+       cx="-151.63551"
+       cy="75.344742"
+       r="9.4494047"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#007cfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27711)"
+       id="path32-9"
+       cx="-108.92419"
+       cy="1.6393756"
+       r="15.119047"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27701)"
+       id="path34-1"
+       cx="-83.977753"
+       cy="58.335831"
+       r="9.0714283"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27691)"
+       id="path36-2"
+       cx="-87.379547"
+       cy="36.791183"
+       r="7.1815476"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#0000a4;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27681)"
+       id="path38-7"
+       cx="-109.68015"
+       cy="98.401291"
+       r="13.607142"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27671)"
+       id="path40-0"
+       cx="-64.700989"
+       cy="22.428072"
+       r="11.717261"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27661)"
+       id="path42-9"
+       cx="-65.8349"
+       cy="-7.4320354"
+       r="9.8273811"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27651)"
+       id="path44-3"
+       cx="-144.82077"
+       cy="55.939537"
+       r="18.898809"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27641)"
+       id="path46-6"
+       cx="-117.61768"
+       cy="73.83284"
+       r="2.6458333"
+       transform="rotate(-120)" />
+    <ellipse
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27631)"
+       id="path48-0"
+       cx="-102.87659"
+       cy="51.910233"
+       rx="4.5357141"
+       ry="4.1577382"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27621)"
+       id="path52-6"
+       cx="-169.02242"
+       cy="23.939974"
+       r="1.8898809"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#005ce0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27611)"
+       id="path54-2"
+       cx="-67.028976"
+       cy="211.58076"
+       r="8.3154764"
+       transform="rotate(-81.913364)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27601)"
+       id="path58-6"
+       cx="19.187937"
+       cy="102.87872"
+       r="4.9136906"
+       transform="rotate(-81.913364)" />
+    <circle
+       style="opacity:0.71348314;fill:#0038d4;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27591)"
+       id="path60-1"
+       cx="-218.53731"
+       cy="53.800095"
+       r="9.0714283"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27581)"
+       id="path62-8"
+       cx="-193.59087"
+       cy="59.091782"
+       r="2.2678571"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#0cc8fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27571)"
+       id="path64-7"
+       cx="-221.56111"
+       cy="81.014389"
+       r="6.8035712"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#9ce8fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27561)"
+       id="path66-9"
+       cx="-212.11171"
+       cy="93.487595"
+       r="1.8898809"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#24d0fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27551)"
+       id="path68-2"
+       cx="-163.73076"
+       cy="101.80309"
+       r="4.9136906"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27541)"
+       id="path70-0"
+       cx="-137.65041"
+       cy="96.133438"
+       r="4.5357141"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27531)"
+       id="path72-2"
+       cx="-120.64148"
+       cy="120.70192"
+       r="2.6458333"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27521)"
+       id="path74-3"
+       cx="-88.135498"
+       cy="126.7495"
+       r="7.9375"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27511)"
+       id="path76-7"
+       cx="-44.668247"
+       cy="63.627487"
+       r="9.0714283"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27501)"
+       id="path78-5"
+       cx="-65.45694"
+       cy="47.374527"
+       r="2.6458333"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#0044d8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27491)"
+       id="path80-9"
+       cx="-41.266483"
+       cy="43.594742"
+       r="6.4255953"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27481)"
+       id="path82-2"
+       cx="-46.180149"
+       cy="8.4429646"
+       r="5.2916665"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27471)"
+       id="path84-2"
+       cx="-130.84685"
+       cy="21.294191"
+       r="3.0238097"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27461)"
+       id="path86-8"
+       cx="-154.28136"
+       cy="34.901291"
+       r="4.5357141"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27451)"
+       id="path88-9"
+       cx="-180.36171"
+       cy="46.618546"
+       r="3.4017856"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27441)"
+       id="path90-7"
+       cx="-169.02242"
+       cy="-14.613585"
+       r="4.9136906"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27431)"
+       id="path92-3"
+       cx="-136.1385"
+       cy="-11.211821"
+       r="6.8035712"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27421)"
+       id="path94-6"
+       cx="-88.513489"
+       cy="81.014389"
+       r="4.5357141"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00006c;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27411)"
+       id="path96-1"
+       cx="-173.93611"
+       cy="120.32393"
+       r="6.8035712"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#009cf0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27401)"
+       id="path98-2"
+       cx="-221.9391"
+       cy="119.19002"
+       r="6.4255953"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27391)"
+       id="path100-9"
+       cx="-94.939087"
+       cy="-22.929075"
+       r="4.9136906"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27381)"
+       id="path102-3"
+       cx="-37.864674"
+       cy="-26.33087"
+       r="8.3154764"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#0000c0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27371)"
+       id="path104-1"
+       cx="-87.439705"
+       cy="193.43787"
+       r="7.5595236"
+       transform="rotate(-81.913364)" />
+    <circle
+       style="opacity:0.71348314;fill:#00a4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27361)"
+       id="path106-9"
+       cx="5.2028289"
+       cy="90.405479"
+       r="6.8035712"
+       transform="rotate(-81.913364)" />
+    <circle
+       style="opacity:0.71348314;fill:#0010cc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27351)"
+       id="path108-4"
+       cx="6.7147307"
+       cy="127.44717"
+       r="11.339286"
+       transform="rotate(-81.913364)" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27341)"
+       id="path110-7"
+       cx="-189.85226"
+       cy="132.93425"
+       r="11.339286"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27331)"
+       id="path112-8"
+       cx="-200.81358"
+       cy="101.56223"
+       r="3.4017856"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#1cccfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27321)"
+       id="path114-4"
+       cx="-151.25755"
+       cy="-22.551085"
+       r="5.2916665"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#a8fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27311)"
+       id="path116-5"
+       cx="-179.60576"
+       cy="-28.976683"
+       r="10.205358"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#80fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27301)"
+       id="path118-0"
+       cx="-234.41231"
+       cy="72.698929"
+       r="5.2916665"
+       transform="rotate(-120)" />
+    <circle
+       style="opacity:0.71348314;fill:#0000ec;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter27291)"
+       id="path120-3"
+       cx="-233.27837"
+       cy="101.80309"
+       r="3.4017856"
+       transform="rotate(-120)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     transform="translate(35.513787,20.830615)"
+     style="">
+    <circle
+       style="opacity:0.71348314;fill:#0084fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27281)"
+       id="path18-1"
+       cx="-156.78754"
+       cy="82.254646"
+       r="17.224918"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="64.573222"
+       inkscape:transform-center-y="133.91181" />
+    <circle
+       style="opacity:0.71348314;fill:#5cfcfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27271)"
+       id="path20-0"
+       cx="56.581326"
+       cy="108.05045"
+       r="14.832569"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="187.08947"
+       inkscape:transform-center-y="46.476825" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27261)"
+       id="path22-6"
+       cx="35.05014"
+       cy="173.60083"
+       r="7.65552"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="163.17618"
+       inkscape:transform-center-y="111.1962" />
+    <circle
+       style="opacity:0.71348314;fill:#5cd8fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27251)"
+       id="path24-32"
+       cx="71.624771"
+       cy="83.554008"
+       r="15.78951"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="90.005426"
+       inkscape:transform-center-y="150.23034" />
+    <circle
+       style="opacity:0.71348314;fill:#0068e0;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27241)"
+       id="path26-0"
+       cx="3.2035694"
+       cy="70.635323"
+       r="13.39716"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="151.6157"
+       inkscape:transform-center-y="182.67302" />
+    <circle
+       style="opacity:0.71348314;fill:#00ffff;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27231)"
+       id="path28-61"
+       cx="12.772965"
+       cy="40.013233"
+       r="15.31104"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="163.16975"
+       inkscape:transform-center-y="152.74327" />
+    <circle
+       style="opacity:0.71348314;fill:#008cec;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27221)"
+       id="path30-5"
+       cx="60.409054"
+       cy="195.13202"
+       r="11.96175"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="129.92731"
+       inkscape:transform-center-y="112.28213" />
+    <circle
+       style="opacity:0.71348314;fill:#00a4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27211)"
+       id="path32-5"
+       cx="-129.03624"
+       cy="27.709061"
+       r="19.138798"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="111.16737"
+       inkscape:transform-center-y="94.233857" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27201)"
+       id="path34-4"
+       cx="-97.457207"
+       cy="99.479538"
+       r="11.483279"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="34.01995"
+       inkscape:transform-center-y="80.215597" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27191)"
+       id="path36-7"
+       cx="-101.76345"
+       cy="72.206795"
+       r="9.09093"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="61.546279"
+       inkscape:transform-center-y="78.059794" />
+    <circle
+       style="opacity:0.71348314;fill:#0000a4;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27181)"
+       id="path38-6"
+       cx="-134.62877"
+       cy="137.31514"
+       r="17.224918"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="-7.7384708"
+       inkscape:transform-center-y="123.6566" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27171)"
+       id="path42-6"
+       cx="-74.490654"
+       cy="16.2258"
+       r="12.44022"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="109.64777"
+       inkscape:transform-center-y="38.513324" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27161)"
+       id="path46-3"
+       cx="-140.04109"
+       cy="119.09683"
+       r="3.3492899"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="24.846219"
+       inkscape:transform-center-y="126.1946" />
+    <ellipse
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27151)"
+       id="path48-7"
+       cx="-121.38076"
+       cy="91.345604"
+       rx="5.7416396"
+       ry="5.2631698"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="47.49564"
+       inkscape:transform-center-y="101.59089" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27141)"
+       id="path52-4"
+       cx="38.399445"
+       cy="130.0601"
+       r="2.3923497"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="187.63609"
+       inkscape:transform-center-y="75.019899" />
+    <circle
+       style="opacity:0.71348314;fill:#005ce0;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27131)"
+       id="path54-5"
+       cx="8.2558317"
+       cy="87.476257"
+       r="10.52634"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="237.72626"
+       inkscape:transform-center-y="60.425536" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27121)"
+       id="path58-2"
+       cx="-30.500229"
+       cy="99.438019"
+       r="6.2201099"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="260.63257"
+       inkscape:transform-center-y="93.898148" />
+    <circle
+       style="opacity:0.71348314;fill:#0038d4;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27111)"
+       id="path60-5"
+       cx="-20.719942"
+       cy="1.7356522"
+       r="11.483279"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="213.20395"
+       inkscape:transform-center-y="143.60404" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27101)"
+       id="path62-4"
+       cx="10.859117"
+       cy="8.434207"
+       r="2.8708198"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="184.31057"
+       inkscape:transform-center-y="129.20685" />
+    <circle
+       style="opacity:0.71348314;fill:#0cc8fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27091)"
+       id="path64-74"
+       cx="-24.547701"
+       cy="36.18549"
+       r="8.6124592"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="194.77325"
+       inkscape:transform-center-y="172.95965" />
+    <circle
+       style="opacity:0.71348314;fill:#9ce8fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27081)"
+       id="path66-4"
+       cx="-12.585938"
+       cy="51.974995"
+       r="2.3923497"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="175.58588"
+       inkscape:transform-center-y="177.88281" />
+    <circle
+       style="opacity:0.71348314;fill:#24d0fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27071)"
+       id="path68-3"
+       cx="48.658218"
+       cy="62.501293"
+       r="6.2201099"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="121.08342"
+       inkscape:transform-center-y="148.03103" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27061)"
+       id="path70-07"
+       cx="81.672623"
+       cy="55.324299"
+       r="5.7416396"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="99.696771"
+       inkscape:transform-center-y="121.87628" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27051)"
+       id="path72-8"
+       cx="103.20381"
+       cy="86.424828"
+       r="3.3492899"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="63.492912"
+       inkscape:transform-center-y="132.83598" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27041)"
+       id="path74-6"
+       cx="-102.72039"
+       cy="186.08263"
+       r="10.04787"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="-48.983341"
+       inkscape:transform-center-y="105.4792" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27031)"
+       id="path76-8"
+       cx="-47.696346"
+       cy="106.17813"
+       r="11.483279"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="15.930201"
+       inkscape:transform-center-y="33.377845" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27021)"
+       id="path78-8"
+       cx="-74.012199"
+       cy="85.603928"
+       r="3.3492899"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="42.061397"
+       inkscape:transform-center-y="54.186074" />
+    <circle
+       style="opacity:0.71348314;fill:#0044d8;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27011)"
+       id="path80-4"
+       cx="-43.390163"
+       cy="80.819221"
+       r="8.1339903"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="39.591852"
+       inkscape:transform-center-y="23.291032" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter27001)"
+       id="path82-3"
+       cx="-49.610226"
+       cy="36.321526"
+       r="6.6985798"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="84.315823"
+       inkscape:transform-center-y="18.989847" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26991)"
+       id="path84-1"
+       cx="-156.78754"
+       cy="52.589497"
+       r="3.82776"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="93.424652"
+       inkscape:transform-center-y="127.01139" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26981)"
+       id="path86-4"
+       cx="57.05975"
+       cy="143.93573"
+       r="5.7416396"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="164.39411"
+       inkscape:transform-center-y="74.277946" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26971)"
+       id="path88-92"
+       cx="24.045353"
+       cy="158.76828"
+       r="4.3062296"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="181.01898"
+       inkscape:transform-center-y="106.42711" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26961)"
+       id="path90-0"
+       cx="38.399445"
+       cy="81.256165"
+       r="6.2201099"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="217.99228"
+       inkscape:transform-center-y="36.805689" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26951)"
+       id="path92-6"
+       cx="-163.4861"
+       cy="11.441086"
+       r="8.6124592"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="135.00252"
+       inkscape:transform-center-y="123.95465" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26941)"
+       id="path94-8"
+       cx="-103.19888"
+       cy="128.18776"
+       r="5.7416396"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="7.4347684"
+       inkscape:transform-center-y="92.477605" />
+    <circle
+       style="opacity:0.71348314;fill:#00006c;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26931)"
+       id="path96-9"
+       cx="35.739517"
+       cy="85.946404"
+       r="8.6124592"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="116.61604"
+       inkscape:transform-center-y="174.42436" />
+    <circle
+       style="opacity:0.71348314;fill:#009cf0;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26921)"
+       id="path98-26"
+       cx="-25.026186"
+       cy="84.510948"
+       r="8.1339903"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="165.08933"
+       inkscape:transform-center-y="211.09682" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26911)"
+       id="path100-6"
+       cx="-111.33288"
+       cy="-3.391479"
+       r="6.2201099"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="137.29684"
+       inkscape:transform-center-y="69.78178" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26901)"
+       id="path102-4"
+       cx="-39.083889"
+       cy="-7.6977077"
+       r="10.52634"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="124.67907"
+       inkscape:transform-center-y="-1.487088" />
+    <circle
+       style="opacity:0.71348314;fill:#0000c0;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26891)"
+       id="path104-9"
+       cx="-17.581556"
+       cy="64.509705"
+       r="9.5693989"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="272.24257"
+       inkscape:transform-center-y="58.513294" />
+    <circle
+       style="opacity:0.71348314;fill:#00a4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26881)"
+       id="path106-5"
+       cx="-48.203632"
+       cy="83.648514"
+       r="8.6124592"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="284.31571"
+       inkscape:transform-center-y="92.5463" />
+    <circle
+       style="opacity:0.71348314;fill:#0010cc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26871)"
+       id="path108-0"
+       cx="10.334781"
+       cy="117.59303"
+       r="14.3541"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="253.65139"
+       inkscape:transform-center-y="128.07144" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26861)"
+       id="path110-4"
+       cx="-22.815899"
+       cy="167.42224"
+       r="14.3541"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="-49.421434"
+       inkscape:transform-center-y="23.425892" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26851)"
+       id="path112-87"
+       cx="-36.69154"
+       cy="127.70926"
+       r="4.3062296"
+       transform="rotate(-76.549188)"
+       inkscape:transform-center-x="-7.5701606"
+       inkscape:transform-center-y="27.683267" />
+    <circle
+       style="opacity:0.71348314;fill:#1cccfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26841)"
+       id="path114-1"
+       cx="60.887512"
+       cy="71.208298"
+       r="6.6985798"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="206.63358"
+       inkscape:transform-center-y="14.950414" />
+    <circle
+       style="opacity:0.71348314;fill:#a8fcfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26831)"
+       id="path116-7"
+       cx="25.002293"
+       cy="63.074295"
+       r="12.918689"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="239.79163"
+       inkscape:transform-center-y="30.902085" />
+    <circle
+       style="opacity:0.71348314;fill:#80fcfc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26821)"
+       id="path118-2"
+       cx="-40.815678"
+       cy="25.659138"
+       r="6.6985798"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="214.05873"
+       inkscape:transform-center-y="174.83609" />
+    <circle
+       style="opacity:0.71348314;fill:#0000ec;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26811)"
+       id="path120-7"
+       cx="-39.380253"
+       cy="62.501293"
+       r="4.3062296"
+       transform="rotate(-38.462552)"
+       inkscape:transform-center-x="190.01884"
+       inkscape:transform-center-y="202.79122" />
+    <circle
+       style="opacity:0.71348314;fill:#00a4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26801)"
+       id="path32-5-2"
+       cx="192.67946"
+       cy="-27.687981"
+       r="19.138798"
+       transform="rotate(11.258444)"
+       inkscape:transform-center-x="98.417556"
+       inkscape:transform-center-y="-107.48111" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26791)"
+       id="path84-1-2"
+       cx="164.92816"
+       cy="-2.8075488"
+       r="3.82776"
+       transform="rotate(11.258444)"
+       inkscape:transform-center-x="130.49235"
+       inkscape:transform-center-y="-88.497486" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26781)"
+       id="path92-6-6"
+       cx="158.2296"
+       cy="-43.955956"
+       r="8.6124592"
+       transform="rotate(11.258444)"
+       inkscape:transform-center-x="129.0284"
+       inkscape:transform-center-y="-130.16185" />
+    <circle
+       style="opacity:0.71348314;fill:#0068e0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26771)"
+       id="path26-1"
+       cx="61.778385"
+       cy="-186.771"
+       r="10.583333"
+       transform="rotate(87.807632)" />
+    <circle
+       style="opacity:0.71348314;fill:#9ce8fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26761)"
+       id="path66-0"
+       cx="49.305164"
+       cy="-201.51207"
+       r="1.8898809"
+       transform="rotate(87.807632)" />
+    <circle
+       style="opacity:0.71348314;fill:#009cf0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26751)"
+       id="path98-6"
+       cx="39.477787"
+       cy="-175.80969"
+       r="6.4255953"
+       transform="rotate(87.807632)" />
+    <circle
+       style="opacity:0.71348314;fill:#0000ec;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26741)"
+       id="path120-1"
+       cx="28.138508"
+       cy="-193.19659"
+       r="3.4017856"
+       transform="rotate(87.807632)" />
+    <circle
+       style="opacity:0.71348314;fill:#34d0fc;fill-opacity:1;stroke-width:0.33492896;filter:url(#filter26731)"
+       id="path74-6-5"
+       cx="19.720007"
+       cy="-4.3184524"
+       r="10.04787"
+       transform="rotate(-4.921972)"
+       inkscape:transform-center-x="84.663021"
+       inkscape:transform-center-y="79.733319" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26721)"
+       id="path74-9"
+       cx="-4.3730488"
+       cy="-5.8443727"
+       r="7.9375"
+       transform="rotate(71.627216)" />
+    <circle
+       style="opacity:0.71348314;fill:#0090fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26711)"
+       id="path60-1-4"
+       cx="1.2949843"
+       cy="-0.21830733"
+       r="9.0714283"
+       transform="rotate(-48.372784)" />
+    <circle
+       style="opacity:0.71348314;fill:#80fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26701)"
+       id="path118-0-9"
+       cx="-14.580016"
+       cy="18.680529"
+       r="5.2916665"
+       transform="rotate(-48.372784)" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(35.513787,20.830615)"
+     style="">
+    <circle
+       style="opacity:0.71348314;fill:#0084fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26691)"
+       id="path18"
+       cx="109.61309"
+       cy="75.505951"
+       r="13.607142" />
+    <circle
+       style="opacity:0.71348314;fill:#5cfcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26681)"
+       id="path20"
+       cx="85.800591"
+       cy="37.330357"
+       r="11.717261" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26671)"
+       id="path22"
+       cx="68.791664"
+       cy="89.113091"
+       r="6.0476193" />
+    <circle
+       style="opacity:0.71348314;fill:#5cd8fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26661)"
+       id="path24"
+       cx="94.872025"
+       cy="149.2113"
+       r="12.473214" />
+    <circle
+       style="opacity:0.71348314;fill:#0068e0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26651)"
+       id="path26"
+       cx="40.82143"
+       cy="139.00595"
+       r="10.583333" />
+    <circle
+       style="opacity:0.71348314;fill:#00ffff;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26641)"
+       id="path28"
+       cx="48.380955"
+       cy="114.81547"
+       r="12.095239" />
+    <circle
+       style="opacity:0.71348314;fill:#008cec;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26631)"
+       id="path30"
+       cx="88.824409"
+       cy="106.12202"
+       r="9.4494047" />
+    <circle
+       style="opacity:0.71348314;fill:#00a4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26621)"
+       id="path32"
+       cx="131.53571"
+       cy="32.416664"
+       r="15.119047" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26611)"
+       id="path34"
+       cx="156.48215"
+       cy="89.113091"
+       r="9.0714283" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26601)"
+       id="path36"
+       cx="153.08035"
+       cy="67.568451"
+       r="7.1815472" />
+    <circle
+       style="opacity:0.71348314;fill:#0000a4;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26591)"
+       id="path38"
+       cx="130.77975"
+       cy="129.17857"
+       r="13.607142" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26581)"
+       id="path40"
+       cx="175.75893"
+       cy="53.205357"
+       r="11.717261" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26571)"
+       id="path42"
+       cx="174.625"
+       cy="23.345238"
+       r="9.8273811" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26561)"
+       id="path44"
+       cx="180.67261"
+       cy="131.44643"
+       r="18.898809" />
+    <ellipse
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26551)"
+       id="path48"
+       cx="137.58333"
+       cy="82.6875"
+       rx="4.5357141"
+       ry="4.1577382" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26541)"
+       id="path52"
+       cx="71.4375"
+       cy="54.717262"
+       r="1.8898809" />
+    <circle
+       style="opacity:0.71348314;fill:#005ce0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26531)"
+       id="path54"
+       cx="47.625"
+       cy="21.077381"
+       r="8.3154764" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26521)"
+       id="path58"
+       cx="17.008928"
+       cy="30.526787"
+       r="4.9136906" />
+    <circle
+       style="opacity:0.71348314;fill:#0038d4;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26511)"
+       id="path60"
+       cx="21.922617"
+       cy="84.577377"
+       r="9.0714283" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26501)"
+       id="path62"
+       cx="46.869045"
+       cy="89.869041"
+       r="2.2678571" />
+    <circle
+       style="opacity:0.71348314;fill:#0cc8fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26491)"
+       id="path64"
+       cx="18.898809"
+       cy="111.79166"
+       r="6.8035712" />
+    <circle
+       style="opacity:0.71348314;fill:#9ce8fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26481)"
+       id="path66"
+       cx="28.348215"
+       cy="124.26488"
+       r="1.8898809" />
+    <circle
+       style="opacity:0.71348314;fill:#24d0fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26471)"
+       id="path68"
+       cx="76.729164"
+       cy="132.58035"
+       r="4.9136906" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26461)"
+       id="path70"
+       cx="102.80952"
+       cy="126.91071"
+       r="4.5357141" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26451)"
+       id="path72"
+       cx="119.81845"
+       cy="151.47917"
+       r="2.6458333" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26441)"
+       id="path74"
+       cx="152.3244"
+       cy="157.52678"
+       r="7.9375" />
+    <circle
+       style="opacity:0.71348314;fill:#a4fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26431)"
+       id="path76"
+       cx="195.79167"
+       cy="94.404755"
+       r="9.0714283" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26421)"
+       id="path78"
+       cx="175.00298"
+       cy="78.151787"
+       r="2.6458333" />
+    <circle
+       style="opacity:0.71348314;fill:#0044d8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26411)"
+       id="path80"
+       cx="199.19344"
+       cy="74.372025"
+       r="6.4255953" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26401)"
+       id="path82"
+       cx="194.27975"
+       cy="39.220238"
+       r="5.2916665" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26391)"
+       id="path84"
+       cx="109.61309"
+       cy="52.07143"
+       r="3.0238097" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26381)"
+       id="path86"
+       cx="86.178574"
+       cy="65.678574"
+       r="4.5357141" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26371)"
+       id="path88"
+       cx="60.098213"
+       cy="77.395828"
+       r="3.4017856" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26361)"
+       id="path90"
+       cx="71.4375"
+       cy="16.163691"
+       r="4.9136906" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26351)"
+       id="path92"
+       cx="104.32143"
+       cy="19.565475"
+       r="6.8035712" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26341)"
+       id="path94"
+       cx="151.94643"
+       cy="111.79166"
+       r="4.5357141" />
+    <circle
+       style="opacity:0.71348314;fill:#00006c;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26331)"
+       id="path96"
+       cx="66.523811"
+       cy="151.1012"
+       r="6.8035712" />
+    <circle
+       style="opacity:0.71348314;fill:#009cf0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26321)"
+       id="path98"
+       cx="18.520834"
+       cy="149.96727"
+       r="6.4255953" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26311)"
+       id="path100"
+       cx="145.52083"
+       cy="7.8482141"
+       r="4.9136906" />
+    <circle
+       style="opacity:0.71348314;fill:#00b8f8;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26301)"
+       id="path102"
+       cx="202.59525"
+       cy="4.4464283"
+       r="8.3154764" />
+    <circle
+       style="opacity:0.71348314;fill:#0000c0;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26291)"
+       id="path104"
+       cx="27.214285"
+       cy="2.9345238"
+       r="7.5595236" />
+    <circle
+       style="opacity:0.71348314;fill:#00a4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26281)"
+       id="path106"
+       cx="3.0238097"
+       cy="18.053572"
+       r="6.8035712" />
+    <circle
+       style="opacity:0.71348314;fill:#0010cc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26271)"
+       id="path108"
+       cx="4.5357141"
+       cy="55.095238"
+       r="11.339286" />
+    <circle
+       style="opacity:0.71348314;fill:#000080;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26261)"
+       id="path110"
+       cx="215.44643"
+       cy="142.78571"
+       r="11.339286" />
+    <circle
+       style="opacity:0.71348314;fill:#00b4fc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26251)"
+       id="path112"
+       cx="204.48511"
+       cy="111.41369"
+       r="3.4017856" />
+    <circle
+       style="opacity:0.71348314;fill:#1cccfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26241)"
+       id="path114"
+       cx="89.202377"
+       cy="8.2261906"
+       r="5.2916665" />
+    <circle
+       style="opacity:0.71348314;fill:#a8fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26231)"
+       id="path116"
+       cx="60.854164"
+       cy="1.8005953"
+       r="10.205358" />
+    <circle
+       style="opacity:0.71348314;fill:#80fcfc;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26221)"
+       id="path118"
+       cx="6.0476193"
+       cy="103.47619"
+       r="5.2916665" />
+    <circle
+       style="opacity:0.71348314;fill:#0000ec;fill-opacity:1;stroke-width:0.26458332;filter:url(#filter26211)"
+       id="path120"
+       cx="7.1815472"
+       cy="132.58035"
+       r="3.4017856" />
+  </g>
+</svg>
