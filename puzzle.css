@@ -3,6 +3,12 @@ body {
     background-size: auto 100vh;
 }
 
+.svg-content {
+    position: relative;
+    width:90vw;
+    height:90vw;
+}
+
 .room {
     color: #889;
     fill: currentColor;
@@ -17,7 +23,7 @@ body {
 
 .closed {
     cursor: not-allowed;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 .clickable {

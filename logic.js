@@ -2,7 +2,6 @@
 function clicked(d) {
     if (selected == null){
 	selected = d3.select("#" + d.id);
-	console.log(d.id.slice(5,6));
 	d3.selectAll(".slot."+d.id.slice(5,6))
 	    .classed("clickable", false)
 	    .call(d3.drag().on("start", null));
@@ -25,8 +24,8 @@ function clicked(d) {
 function setOpenRooms(room){
     adjacentRooms[room].forEach(
 	function(a){
-	    var col1 = d3.select("#light" + a).style("fill");
-	    var col2 = d3.select("#light" + room).style("fill");
+	    var col1 = d3.select("#" + a).style("fill");
+	    var col2 = d3.select("#" + room).style("fill");
 	    if ( col1 == col2  && col1 != "rgb(255, 255, 255)"){
 		openRoom(a);openRoom(room);} else {closeRoom(a);}
 	});
@@ -50,7 +49,6 @@ function setOpenRooms(room){
 
 function openRoom(roomId){
     d3.select("#"+roomId).classed("closed", false).classed("open", true);
-    d3.select("#light"+roomId).classed("closed", false).classed("open", true);
     d3.selectAll(".slot." + roomId)
 	.classed("clickable clickable open", true)
 	.classed("closed", false)
@@ -60,7 +58,6 @@ function openRoom(roomId){
 
 function closeRoom(roomId){
     d3.select("#"+roomId).classed("closed", true).classed("open", false);
-    d3.select("#light"+roomId).classed("closed", true).classed("open", false);
     d3.selectAll(".slot.clickable."+roomId)
 	.classed("clickable open", false)
 	.classed("closed", true);
@@ -105,18 +102,19 @@ function switchColors(){
 
 
 function fixLights(){
-    d3.selectAll(".room.open").each(e => fixLight(e));
+    d3.selectAll(".light.open").each(e => fixLight(e));
 }
 
-function fixLight(room){
-    room = room.id;
-    var sources = d3.selectAll(".active." + room);
+function fixLight(light){
+    light = light.id;
+    console.log(light);
+    var sources = d3.selectAll(".active." + light);
     if (sources.size() == 2){
-	d3.select("#light" + room).style("fill", getColor(
-	    d3.select("#slot0" + room).style("fill"),
-	    d3.select("#slot1" + room).style("fill")));
+	d3.select("#" + light).style("fill", getColor(
+	    d3.select("#slot0" + light).style("fill"),
+	    d3.select("#slot1" + light).style("fill")));
     } else {
-	d3.select("#light" + room).style("fill","rgb(255, 255, 255)");
+	d3.select("#light" + light).style("fill","rgb(255, 255, 255)");
     }
 }
 

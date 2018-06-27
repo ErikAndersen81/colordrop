@@ -20,7 +20,7 @@
   <defs
      id="defs2">
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -45,11 +45,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26209" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26420" />
+      <feColorMatrix
+         id="feColorMatrix26422"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26424"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -74,11 +90,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26219" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26426" />
+      <feColorMatrix
+         id="feColorMatrix26428"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26430"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -103,11 +135,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26229" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26432" />
+      <feColorMatrix
+         id="feColorMatrix26434"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26436"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -132,11 +180,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26239" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26438" />
+      <feColorMatrix
+         id="feColorMatrix26440"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26442"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -161,11 +225,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26249" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26444" />
+      <feColorMatrix
+         id="feColorMatrix26446"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26448"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -190,11 +270,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26259" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26450" />
+      <feColorMatrix
+         id="feColorMatrix26452"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26454"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -219,11 +315,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26269" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26456" />
+      <feColorMatrix
+         id="feColorMatrix26458"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26460"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -248,11 +360,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26279" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26462" />
+      <feColorMatrix
+         id="feColorMatrix26464"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26466"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -277,11 +405,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26289" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26468" />
+      <feColorMatrix
+         id="feColorMatrix26470"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26472"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -306,11 +450,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26299" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26474" />
+      <feColorMatrix
+         id="feColorMatrix26476"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26478"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -335,11 +495,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26309" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26480" />
+      <feColorMatrix
+         id="feColorMatrix26482"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26484"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -364,11 +540,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26319" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26486" />
+      <feColorMatrix
+         id="feColorMatrix26488"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26490"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -393,11 +585,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26329" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26492" />
+      <feColorMatrix
+         id="feColorMatrix26494"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26496"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -422,11 +630,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26339" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26498" />
+      <feColorMatrix
+         id="feColorMatrix26500"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26502"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -451,11 +675,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26349" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26504" />
+      <feColorMatrix
+         id="feColorMatrix26506"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26508"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -480,11 +720,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26359" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26510" />
+      <feColorMatrix
+         id="feColorMatrix26512"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26514"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -509,11 +765,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26369" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26516" />
+      <feColorMatrix
+         id="feColorMatrix26518"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26520"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -538,11 +810,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26379" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26522" />
+      <feColorMatrix
+         id="feColorMatrix26524"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26526"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -567,11 +855,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26389" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26528" />
+      <feColorMatrix
+         id="feColorMatrix26530"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26532"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -596,11 +900,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26399" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26534" />
+      <feColorMatrix
+         id="feColorMatrix26536"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26538"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -625,11 +945,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26409" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26540" />
+      <feColorMatrix
+         id="feColorMatrix26542"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26544"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -654,11 +990,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26419" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26546" />
+      <feColorMatrix
+         id="feColorMatrix26548"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26550"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -683,11 +1035,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26429" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26552" />
+      <feColorMatrix
+         id="feColorMatrix26554"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26556"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -712,11 +1080,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26439" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26558" />
+      <feColorMatrix
+         id="feColorMatrix26560"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26562"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -741,11 +1125,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26449" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26564" />
+      <feColorMatrix
+         id="feColorMatrix26566"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26568"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -770,11 +1170,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26459" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26570" />
+      <feColorMatrix
+         id="feColorMatrix26572"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26574"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -799,11 +1215,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26469" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26576" />
+      <feColorMatrix
+         id="feColorMatrix26578"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26580"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -828,11 +1260,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26479" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26582" />
+      <feColorMatrix
+         id="feColorMatrix26584"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26586"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -857,11 +1305,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26489" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26588" />
+      <feColorMatrix
+         id="feColorMatrix26590"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26592"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -886,11 +1350,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26499" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26594" />
+      <feColorMatrix
+         id="feColorMatrix26596"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26598"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -915,11 +1395,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26509" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26600" />
+      <feColorMatrix
+         id="feColorMatrix26602"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26604"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -944,11 +1440,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26519" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26606" />
+      <feColorMatrix
+         id="feColorMatrix26608"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26610"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -973,11 +1485,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26529" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26612" />
+      <feColorMatrix
+         id="feColorMatrix26614"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26616"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1002,11 +1530,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26539" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26618" />
+      <feColorMatrix
+         id="feColorMatrix26620"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26622"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1031,11 +1575,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26549" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26624" />
+      <feColorMatrix
+         id="feColorMatrix26626"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26628"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1060,11 +1620,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26559" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26630" />
+      <feColorMatrix
+         id="feColorMatrix26632"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26634"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1089,11 +1665,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26569" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26636" />
+      <feColorMatrix
+         id="feColorMatrix26638"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26640"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1118,11 +1710,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26579" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26642" />
+      <feColorMatrix
+         id="feColorMatrix26644"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26646"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1147,11 +1755,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26589" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26648" />
+      <feColorMatrix
+         id="feColorMatrix26650"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26652"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1176,11 +1800,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26599" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26654" />
+      <feColorMatrix
+         id="feColorMatrix26656"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26658"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1205,11 +1845,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26609" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26660" />
+      <feColorMatrix
+         id="feColorMatrix26662"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26664"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1234,11 +1890,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26619" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26666" />
+      <feColorMatrix
+         id="feColorMatrix26668"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26670"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1263,11 +1935,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26629" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26672" />
+      <feColorMatrix
+         id="feColorMatrix26674"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26676"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1292,11 +1980,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26639" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26678" />
+      <feColorMatrix
+         id="feColorMatrix26680"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26682"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1321,11 +2025,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26649" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26684" />
+      <feColorMatrix
+         id="feColorMatrix26686"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26688"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1350,11 +2070,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26659" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26690" />
+      <feColorMatrix
+         id="feColorMatrix26692"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26694"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1379,11 +2115,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26669" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26696" />
+      <feColorMatrix
+         id="feColorMatrix26698"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26700"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1408,11 +2160,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26679" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26702" />
+      <feColorMatrix
+         id="feColorMatrix26704"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26706"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1437,11 +2205,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26689" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26708" />
+      <feColorMatrix
+         id="feColorMatrix26710"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26712"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1466,11 +2250,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26699" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26714" />
+      <feColorMatrix
+         id="feColorMatrix26716"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26718"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1495,11 +2295,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26709" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26720" />
+      <feColorMatrix
+         id="feColorMatrix26722"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26724"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1524,11 +2340,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26719" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26726" />
+      <feColorMatrix
+         id="feColorMatrix26728"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26730"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1553,11 +2385,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26729" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26732" />
+      <feColorMatrix
+         id="feColorMatrix26734"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26736"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1582,11 +2430,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26739" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26738" />
+      <feColorMatrix
+         id="feColorMatrix26740"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26742"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1611,11 +2475,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26749" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26744" />
+      <feColorMatrix
+         id="feColorMatrix26746"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26748"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1640,11 +2520,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26759" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26750" />
+      <feColorMatrix
+         id="feColorMatrix26752"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26754"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1669,11 +2565,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26769" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26756" />
+      <feColorMatrix
+         id="feColorMatrix26758"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26760"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1698,11 +2610,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26779" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26762" />
+      <feColorMatrix
+         id="feColorMatrix26764"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26766"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1727,11 +2655,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26789" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26768" />
+      <feColorMatrix
+         id="feColorMatrix26770"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26772"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1756,11 +2700,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26799" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26774" />
+      <feColorMatrix
+         id="feColorMatrix26776"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26778"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1785,11 +2745,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26809" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26780" />
+      <feColorMatrix
+         id="feColorMatrix26782"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26784"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1814,11 +2790,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26819" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26786" />
+      <feColorMatrix
+         id="feColorMatrix26788"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26790"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1843,11 +2835,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26829" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26792" />
+      <feColorMatrix
+         id="feColorMatrix26794"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26796"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1872,11 +2880,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26839" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26798" />
+      <feColorMatrix
+         id="feColorMatrix26800"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26802"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1901,11 +2925,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26849" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26804" />
+      <feColorMatrix
+         id="feColorMatrix26806"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26808"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1930,11 +2970,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26859" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26810" />
+      <feColorMatrix
+         id="feColorMatrix26812"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26814"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1959,11 +3015,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26869" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26816" />
+      <feColorMatrix
+         id="feColorMatrix26818"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26820"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -1988,11 +3060,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26879" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26822" />
+      <feColorMatrix
+         id="feColorMatrix26824"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26826"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2017,11 +3105,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26889" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26828" />
+      <feColorMatrix
+         id="feColorMatrix26830"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26832"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2046,11 +3150,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26899" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26834" />
+      <feColorMatrix
+         id="feColorMatrix26836"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26838"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2075,11 +3195,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26909" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26840" />
+      <feColorMatrix
+         id="feColorMatrix26842"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26844"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2104,11 +3240,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26919" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26846" />
+      <feColorMatrix
+         id="feColorMatrix26848"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26850"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2133,11 +3285,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26929" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26852" />
+      <feColorMatrix
+         id="feColorMatrix26854"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26856"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2162,11 +3330,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26939" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26858" />
+      <feColorMatrix
+         id="feColorMatrix26860"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26862"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2191,11 +3375,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26949" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26864" />
+      <feColorMatrix
+         id="feColorMatrix26866"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26868"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2220,11 +3420,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26959" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26870" />
+      <feColorMatrix
+         id="feColorMatrix26872"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26874"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2249,11 +3465,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26969" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26876" />
+      <feColorMatrix
+         id="feColorMatrix26878"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26880"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2278,11 +3510,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26979" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26882" />
+      <feColorMatrix
+         id="feColorMatrix26884"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26886"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2307,11 +3555,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26989" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26888" />
+      <feColorMatrix
+         id="feColorMatrix26890"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26892"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2336,11 +3600,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend26999" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26894" />
+      <feColorMatrix
+         id="feColorMatrix26896"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26898"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2365,11 +3645,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27009" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26900" />
+      <feColorMatrix
+         id="feColorMatrix26902"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26904"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2394,11 +3690,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27019" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26906" />
+      <feColorMatrix
+         id="feColorMatrix26908"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26910"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2423,11 +3735,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27029" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26912" />
+      <feColorMatrix
+         id="feColorMatrix26914"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26916"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2452,11 +3780,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27039" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26918" />
+      <feColorMatrix
+         id="feColorMatrix26920"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26922"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2481,11 +3825,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27049" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26924" />
+      <feColorMatrix
+         id="feColorMatrix26926"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26928"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2510,11 +3870,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27059" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26930" />
+      <feColorMatrix
+         id="feColorMatrix26932"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26934"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2539,11 +3915,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27069" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26936" />
+      <feColorMatrix
+         id="feColorMatrix26938"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26940"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2568,11 +3960,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27079" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26942" />
+      <feColorMatrix
+         id="feColorMatrix26944"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26946"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2597,11 +4005,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27089" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26948" />
+      <feColorMatrix
+         id="feColorMatrix26950"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26952"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2626,11 +4050,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27099" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26954" />
+      <feColorMatrix
+         id="feColorMatrix26956"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26958"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2655,11 +4095,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27109" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26960" />
+      <feColorMatrix
+         id="feColorMatrix26962"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26964"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2684,11 +4140,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27119" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26966" />
+      <feColorMatrix
+         id="feColorMatrix26968"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26970"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2713,11 +4185,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27129" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26972" />
+      <feColorMatrix
+         id="feColorMatrix26974"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26976"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2742,11 +4230,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27139" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26978" />
+      <feColorMatrix
+         id="feColorMatrix26980"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26982"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2771,11 +4275,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27149" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26984" />
+      <feColorMatrix
+         id="feColorMatrix26986"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26988"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2800,11 +4320,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27159" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26990" />
+      <feColorMatrix
+         id="feColorMatrix26992"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix26994"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2829,11 +4365,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27169" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix26996" />
+      <feColorMatrix
+         id="feColorMatrix26998"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27000"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2858,11 +4410,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27179" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27002" />
+      <feColorMatrix
+         id="feColorMatrix27004"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27006"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2887,11 +4455,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27189" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27008" />
+      <feColorMatrix
+         id="feColorMatrix27010"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27012"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2916,11 +4500,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27199" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27014" />
+      <feColorMatrix
+         id="feColorMatrix27016"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27018"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2945,11 +4545,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27209" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27020" />
+      <feColorMatrix
+         id="feColorMatrix27022"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27024"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -2974,11 +4590,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27219" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27026" />
+      <feColorMatrix
+         id="feColorMatrix27028"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27030"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3003,11 +4635,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27229" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27032" />
+      <feColorMatrix
+         id="feColorMatrix27034"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27036"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3032,11 +4680,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27239" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27038" />
+      <feColorMatrix
+         id="feColorMatrix27040"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27042"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3061,11 +4725,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27249" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27044" />
+      <feColorMatrix
+         id="feColorMatrix27046"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27048"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3090,11 +4770,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27259" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27050" />
+      <feColorMatrix
+         id="feColorMatrix27052"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27054"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3119,11 +4815,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27269" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27056" />
+      <feColorMatrix
+         id="feColorMatrix27058"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27060"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3148,11 +4860,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27279" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27062" />
+      <feColorMatrix
+         id="feColorMatrix27064"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27066"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3177,11 +4905,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27289" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27068" />
+      <feColorMatrix
+         id="feColorMatrix27070"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27072"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3206,11 +4950,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27299" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27074" />
+      <feColorMatrix
+         id="feColorMatrix27076"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27078"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3235,11 +4995,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27309" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27080" />
+      <feColorMatrix
+         id="feColorMatrix27082"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27084"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3264,11 +5040,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27319" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27086" />
+      <feColorMatrix
+         id="feColorMatrix27088"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27090"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3293,11 +5085,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27329" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27092" />
+      <feColorMatrix
+         id="feColorMatrix27094"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27096"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3322,11 +5130,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27339" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27098" />
+      <feColorMatrix
+         id="feColorMatrix27100"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27102"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3351,11 +5175,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27349" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27104" />
+      <feColorMatrix
+         id="feColorMatrix27106"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27108"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3380,11 +5220,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27359" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27110" />
+      <feColorMatrix
+         id="feColorMatrix27112"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27114"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3409,11 +5265,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27369" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27116" />
+      <feColorMatrix
+         id="feColorMatrix27118"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27120"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3438,11 +5310,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27379" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27122" />
+      <feColorMatrix
+         id="feColorMatrix27124"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27126"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3467,11 +5355,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27389" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27128" />
+      <feColorMatrix
+         id="feColorMatrix27130"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27132"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3496,11 +5400,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27399" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27134" />
+      <feColorMatrix
+         id="feColorMatrix27136"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27138"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3525,11 +5445,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27409" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27140" />
+      <feColorMatrix
+         id="feColorMatrix27142"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27144"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3554,11 +5490,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27419" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27146" />
+      <feColorMatrix
+         id="feColorMatrix27148"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27150"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3583,11 +5535,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27429" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27152" />
+      <feColorMatrix
+         id="feColorMatrix27154"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27156"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3612,11 +5580,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27439" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27158" />
+      <feColorMatrix
+         id="feColorMatrix27160"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27162"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3641,11 +5625,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27449" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27164" />
+      <feColorMatrix
+         id="feColorMatrix27166"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27168"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3670,11 +5670,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27459" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27170" />
+      <feColorMatrix
+         id="feColorMatrix27172"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27174"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3699,11 +5715,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27469" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27176" />
+      <feColorMatrix
+         id="feColorMatrix27178"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27180"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3728,11 +5760,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27479" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27182" />
+      <feColorMatrix
+         id="feColorMatrix27184"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27186"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3757,11 +5805,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27489" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27188" />
+      <feColorMatrix
+         id="feColorMatrix27190"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27192"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3786,11 +5850,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27499" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27194" />
+      <feColorMatrix
+         id="feColorMatrix27196"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27198"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3815,11 +5895,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27509" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27200" />
+      <feColorMatrix
+         id="feColorMatrix27202"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27204"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3844,11 +5940,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27519" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27206" />
+      <feColorMatrix
+         id="feColorMatrix27208"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27210"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3873,11 +5985,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27529" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27212" />
+      <feColorMatrix
+         id="feColorMatrix27214"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27216"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3902,11 +6030,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27539" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27218" />
+      <feColorMatrix
+         id="feColorMatrix27220"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27222"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3931,11 +6075,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27549" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27224" />
+      <feColorMatrix
+         id="feColorMatrix27226"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27228"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3960,11 +6120,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27559" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27230" />
+      <feColorMatrix
+         id="feColorMatrix27232"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27234"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -3989,11 +6165,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27569" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27236" />
+      <feColorMatrix
+         id="feColorMatrix27238"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27240"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4018,11 +6210,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27579" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27242" />
+      <feColorMatrix
+         id="feColorMatrix27244"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27246"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4047,11 +6255,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27589" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27248" />
+      <feColorMatrix
+         id="feColorMatrix27250"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27252"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4076,11 +6300,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27599" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27254" />
+      <feColorMatrix
+         id="feColorMatrix27256"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27258"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4105,11 +6345,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27609" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27260" />
+      <feColorMatrix
+         id="feColorMatrix27262"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27264"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4134,11 +6390,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27619" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27266" />
+      <feColorMatrix
+         id="feColorMatrix27268"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27270"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4163,11 +6435,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27629" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27272" />
+      <feColorMatrix
+         id="feColorMatrix27274"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27276"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4192,11 +6480,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27639" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27278" />
+      <feColorMatrix
+         id="feColorMatrix27280"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27282"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4221,11 +6525,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27649" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27284" />
+      <feColorMatrix
+         id="feColorMatrix27286"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27288"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4250,11 +6570,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27659" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27290" />
+      <feColorMatrix
+         id="feColorMatrix27292"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27294"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4279,11 +6615,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27669" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27296" />
+      <feColorMatrix
+         id="feColorMatrix27298"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27300"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4308,11 +6660,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27679" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27302" />
+      <feColorMatrix
+         id="feColorMatrix27304"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27306"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4337,11 +6705,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27689" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27308" />
+      <feColorMatrix
+         id="feColorMatrix27310"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27312"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4366,11 +6750,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27699" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27314" />
+      <feColorMatrix
+         id="feColorMatrix27316"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27318"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4395,11 +6795,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27709" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27320" />
+      <feColorMatrix
+         id="feColorMatrix27322"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27324"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4424,11 +6840,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27719" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27326" />
+      <feColorMatrix
+         id="feColorMatrix27328"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27330"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4453,11 +6885,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27729" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27332" />
+      <feColorMatrix
+         id="feColorMatrix27334"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27336"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4482,11 +6930,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27739" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27338" />
+      <feColorMatrix
+         id="feColorMatrix27340"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27342"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4511,11 +6975,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27749" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27344" />
+      <feColorMatrix
+         id="feColorMatrix27346"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27348"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4540,11 +7020,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27759" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27350" />
+      <feColorMatrix
+         id="feColorMatrix27352"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27354"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4569,11 +7065,27 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27769" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27356" />
+      <feColorMatrix
+         id="feColorMatrix27358"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27360"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
     <filter
-       inkscape:label="Blur Double"
+       inkscape:label="Color Shift"
        inkscape:menu="Blurs"
        inkscape:menu-tooltip="Overlays two copies with different blur amounts and modifiable blend and composite"
        style="color-interpolation-filters:sRGB;"
@@ -4598,8 +7110,24 @@
       <feBlend
          in2="fbSourceGraphic"
          mode="normal"
-         result="result3"
+         result="fbSourceGraphic"
          id="feBlend27779" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix27362" />
+      <feColorMatrix
+         id="feColorMatrix27364"
+         type="hueRotate"
+         values="6"
+         result="color1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix27366"
+         type="saturate"
+         values="0.1"
+         result="color2" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -4611,7 +7139,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="408.97224"
-     inkscape:cy="402.81665"
+     inkscape:cy="438.10315"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -4628,7 +7156,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
