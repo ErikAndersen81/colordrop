@@ -21,6 +21,9 @@ function clicked(d) {
     }
 }
 
+
+// Checks whether rooms adjacent to currently open rooms have similar color
+// and opens or closes them accordingly
 function setOpenRooms(room){
     adjacentRooms[room].forEach(
 	function(a){

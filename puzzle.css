@@ -1,12 +1,13 @@
 body {
-    background-image: url("circles.svg");
-    background-size: auto 100vh;
+    background-image: url("background.png");
+    background-size: auto;
 }
 
 .svg-content {
     position: relative;
-    width:90vw;
-    height:90vw;
+    margin:auto;
+    width:90vmin;
+    height:90vmin;
 }
 
 .room {
