@@ -2,31 +2,40 @@
    Data section
 */
 var lights = [
-    {id:"A", x:"25%", y:"25%", light:"rgb(255, 0, 0)", slots:[
-	{id:"slot0A", x:"20.9%", y:"20.9%", color:"rgb(255, 0, 0)", active:true, room:"A"},
-	{id:"slot1A", x:"29.1%", y:"29.1%", color:"rgb(255, 0, 0)", active:true, room:"A"},
-	{id:"slot2A", x:"36%", y:"15%", color:"rgb(0, 0, 255)", active:false, room:"A"}]},
-    {id:"B", x:"50%", y:"25%", light:"rgb(0, 0, 0)", slots:[
-	{id:"slot0B", x:"45.9%", y:"20.9%", color:"rgb(255, 255, 255)", active:true, room:"B"},
-	{id:"slot1B", x:"54.1%", y:"29.1%", color:"rgb(255, 255, 255)", active:true, room:"B"},
-	{id:"slot2B", x:"61%", y:"15%", color:"rgb(0, 0, 255)", active:false, room:"B"}]},
-     {id:"C", x:"75%", y:"25%", light:"rgb(255, 128, 0)", slots:[
-	 {id:"slot0C", x:"70.9%", y:"20.9%", color:"rgb(255, 0, 0)", active:true, room:"C"},
-	 {id:"slot1C", x:"79.1%", y:"29.1%", color:"rgb(255, 255, 0)", active:true, room:"C"},
-	 {id:"slot2C", x:"86%", y:"15%", color:"rgb(255, 255, 255)", active:false, room:"C"}]},
-    {id:"D", x:"25%", y:"50%", light:"rgb(128, 0, 128)", slots:[
-	{id:"slot0D", x:"20.9%", y:"45.9%", color:"rgb(255, 0, 0)", active:true, room:"D"},
-	{id:"slot1D", x:"29.1%", y:"54.1%", color:"rgb(0, 0, 255)", active:true, room:"D"},
-	{id:"slot2D", x:"36%", y:"40%", color:"rgb(255, 255, 255)", active:false, room:"D"}]},
-    {id:"E", x:"50%", y:"50%", light:"rgb(0, 0, 255)", slots:[
-	{id:"slot0E", x:"45.9%", y:"45.9%", color:"rgb(0, 0, 255)", active:true, room:"E"},
-	{id:"slot1E", x:"54.1%", y:"54.1%", color:"rgb(0, 0, 255)", active:true, room:"E"},
-	{id:"slot2E", x:"61%", y:"40%", color:"rgb(255, 255, 0)", active:false, room:"E"}]},
-    {id:"F", x:"75%", y:"50%", light:"rgb(255, 0, 0)", slots:[
-	{id:"slot0F", x:"70.9%", y:"45.9%", color:"rgb(255, 0, 0)", active:true, room:"F"},
-	{id:"slot1F", x:"79.1%", y:"54.1%", color:"rgb(255, 0, 0)", active:true, room:"F"},
-	{id:"slot2F", x:"86%", y:"40%", color:"rgb(255, 255, 255)", active:false, room:"F"}]}
+    {id:"A", x:"25%", y:"25%", light:"rgb(255, 0, 0)"},
+    {id:"B", x:"50%", y:"25%", light:"rgb(0, 0, 0)"},
+    {id:"C", x:"75%", y:"25%", light:"rgb(255, 128, 0)"},
+    {id:"D", x:"25%", y:"50%", light:"rgb(128, 0, 128)"},
+    {id:"E", x:"50%", y:"50%", light:"rgb(0, 0, 255)"},
+    {id:"F", x:"75%", y:"50%", light:"rgb(255, 0, 0)"}
 ];
+
+var slots0 = [
+    {id:"slot0A", x:"20.9%", y:"20.9%", color:"rgb(255, 0, 0)", active:true, room:"A"},
+    {id:"slot0B", x:"45.9%", y:"20.9%", color:"rgb(255, 255, 255)", active:true, room:"B"},
+    {id:"slot0C", x:"70.9%", y:"20.9%", color:"rgb(255, 0, 0)", active:true, room:"C"},
+    {id:"slot0D", x:"20.9%", y:"45.9%", color:"rgb(255, 0, 0)", active:true, room:"D"},
+    {id:"slot0E", x:"45.9%", y:"45.9%", color:"rgb(0, 0, 255)", active:true, room:"E"},
+    {id:"slot0F", x:"70.9%", y:"45.9%", color:"rgb(255, 0, 0)", active:true, room:"F"}
+];
+
+var slots1 = [
+    {id:"slot1A", x:"29.1%", y:"29.1%", color:"rgb(255, 0, 0)", active:true, room:"A"},
+    {id:"slot1B", x:"54.1%", y:"29.1%", color:"rgb(255, 255, 255)", active:true, room:"B"},
+    {id:"slot1C", x:"79.1%", y:"29.1%", color:"rgb(255, 255, 0)", active:true, room:"C"},
+    {id:"slot1D", x:"29.1%", y:"54.1%", color:"rgb(0, 0, 255)", active:true, room:"D"},
+    {id:"slot1E", x:"54.1%", y:"54.1%", color:"rgb(0, 0, 255)", active:true, room:"E"},
+    {id:"slot1F", x:"79.1%", y:"54.1%", color:"rgb(255, 0, 0)", active:true, room:"F"},
+];
+
+var slots2 = [
+    {id:"slot2A", x:"36%", y:"15%", color:"rgb(0, 0, 255)", active:false, room:"A"},
+    {id:"slot2B", x:"61%", y:"15%", color:"rgb(0, 0, 255)", active:false, room:"B"},
+    {id:"slot2C", x:"86%", y:"15%", color:"rgb(255, 255, 255)", active:false, room:"C"},
+    {id:"slot2D", x:"36%", y:"40%", color:"rgb(255, 255, 255)", active:false, room:"D"},
+    {id:"slot2E", x:"61%", y:"40%", color:"rgb(255, 255, 0)", active:false, room:"E"},
+    {id:"slot2F", x:"86%", y:"40%", color:"rgb(255, 255, 255)", active:false, room:"F"}
+    ]
 
 var adjacentRooms = {A:['B', 'D'],
 		     B:['A','C','E'],
@@ -65,19 +74,39 @@ d3.selectAll("g")
     .attr("cy", function(d){return d.y;})
     .attr("r", "12%")
     .attr("id", function(d){return d.id;})
+    .attr("pointer-events", "none")
     .style("fill", function(d){return d.light;});
 
 // Generate slots
-for (i=0;i<3;i++){
 d3.selectAll("g")
-    .insert("circle")
-    .attr("class",d => d.slots[i].active ? "slot active closed " + d.slots[i].room : "slot passive closed " + d.slots[i].room)
-    .attr("cx", function(d){return d.slots[i].x;})
-    .attr("cy", function(d){return d.slots[i].y;})
-    .attr("r", d => d.slots[i].active ? "5.8%":"3%")
-    .attr("id", function(d){return d.slots[i].id;})
-    .style("fill", function(d){return d.slots[i].color;});
-}
+    .data(slots0)
+    .append("circle")
+    .attr("class",d => d.active ? "slot active closed " + d.room : "slot passive closed " + d.room)
+    .attr("cx", function(d){return d.x;})
+    .attr("cy", function(d){return d.y;})
+    .attr("r", d => d.active ? "5.8%":"3%")
+    .attr("id", function(d){return d.id;})
+    .style("fill", function(d){return d.color;});
+
+d3.selectAll("g")
+    .data(slots1)
+    .append("circle")
+    .attr("class",d => d.active ? "slot active closed " + d.room : "slot passive closed " + d.room)
+    .attr("cx", function(d){return d.x;})
+    .attr("cy", function(d){return d.y;})
+    .attr("r", d => d.active ? "5.8%":"3%")
+    .attr("id", function(d){return d.id;})
+    .style("fill", function(d){return d.color;});
+
+d3.selectAll("g")
+    .data(slots2)
+    .append("circle")
+    .attr("class",d => d.active ? "slot active closed " + d.room : "slot passive closed " + d.room)
+    .attr("cx", function(d){return d.x;})
+    .attr("cy", function(d){return d.y;})
+    .attr("r", d => d.active ? "5.8%":"3%")
+    .attr("id", function(d){return d.id;})
+    .style("fill", function(d){return d.color;});
 
 // Generate hands
 puzzle.selectAll()

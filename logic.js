@@ -1,16 +1,23 @@
+// Variables holding the clicked slots and the selected room.
+var selected = null;
+var target = null;
+var selectedRoom = null;
+init();
+
 // Sets the appropriate classes for the selected slot and check if the light in that room changes
 function clicked(d) {
     if (selected == null){
-	selected = d3.select("#" + d.id);
-	d3.selectAll(".slot."+d.id.slice(5,6))
+	selectedRoom = d.room;
+	selected = d3.select("#"+d.id);
+	d3.selectAll(".slot")
 	    .classed("clickable", false)
 	    .call(d3.drag().on("start", null));
 	// Set the hand slots as clickable
 	activateHands()
     } else {
-	target = d3.select("#" + d.id);
+	target = d3.select("#"+d.id);
 	switchColors();
-	setOpenRooms(selected.attr("id").slice(5,6));
+	setOpenRooms(selected.attr("id"));
 	// Set the hands as unclickable
 	deactivateHands();
 	target = null;
@@ -24,20 +31,21 @@ function clicked(d) {
 
 // Checks whether rooms adjacent to currently open rooms have similar color
 // and opens or closes them accordingly
-function setOpenRooms(room){
-    adjacentRooms[room].forEach(
+function setOpenRooms(){
+    adjacentRooms[selectedRoom].forEach(
 	function(a){
 	    var col1 = d3.select("#" + a).style("fill");
-	    var col2 = d3.select("#" + room).style("fill");
+	    var col2 = d3.select("#" + selectedRoom).style("fill");
 	    if ( col1 == col2  && col1 != "rgb(255, 255, 255)"){
-		openRoom(a);openRoom(room);} else {closeRoom(a);}
+		openRoom(a);openRoom(selectedRoom);} else {closeRoom(a);}
 	});
-    d3.selectAll(".slot."+room)
+    d3.selectAll(".slot.open")
 	.classed("clickable", true)
-	.call(d3.drag().on("start", clicked));
+	.call(d3.drag()
+	      .on("start", clicked));
     repeat();
     function repeat(){
-	var open = d3.selectAll(".slot."+room).classed("clickable");
+	var open = d3.selectAll(".slot."+selectedRoom).classed("clickable");
 	if (open){
 	    d3.selectAll(".clickable")
 		.style("stroke", "rgb(180, 180, 180)")
@@ -51,15 +59,13 @@ function setOpenRooms(room){
 }
 
 function openRoom(roomId){
-    d3.select("#"+roomId).classed("closed", false).classed("open", true);
-    d3.selectAll(".slot." + roomId)
-	.classed("clickable clickable open", true)
-	.classed("closed", false)
-	.call(d3.drag()
-	      .on("start", clicked));
+    //d3.select("#group"+roomId).attr("transform", "scale(1.5, 1.5)");
+    var group = d3.select("#group"+roomId);
+    group.selectAll("circle").classed("closed", false).classed("open", true);
 }
 
 function closeRoom(roomId){
+    //d3.select("#group"+roomId).attr("transform", "scale(0.66666, 0.66666)");
     d3.select("#"+roomId).classed("closed", true).classed("open", false);
     d3.selectAll(".slot.clickable."+roomId)
 	.classed("clickable open", false)
@@ -110,7 +116,6 @@ function fixLights(){
 
 function fixLight(light){
     light = light.id;
-    console.log(light);
     var sources = d3.selectAll(".active." + light);
     if (sources.size() == 2){
 	d3.select("#" + light).style("fill", getColor(
@@ -152,44 +157,27 @@ function winner(){
 
     var text = puzzle.append("text")
 	.classed('filled', true)
-	.attr("x", 380)
-	.attr("y", 200)
+	.attr("x", "50%")
+	.attr("y", "50%")
 	.attr("fill", "red")
 	.attr("stroke", "black")
-	.attr("transform", "rotate(10 380 100)")
 	.attr("id", "win")
-	.attr("font-size", "1px")
+	.attr("font-size", "0em")
 	.attr("text-anchor", "middle")
 	.text("Excellent!");
-    
-    text.transition().duration(600)
-	.attr("font-size", "100px")
-	.on("end", repeatWin);
-    
+    repeatWin();
     function repeatWin(){
 	d3.select("#win")
-	    .attr("font-size", "100px")
-	    .attr("transform", "rotate(10 380 100)")
-	    .transition().duration(600)
-	    .attr("font-size", "60px")
-	    .attr("transform", "rotate(0 380, 100)")
-	    .transition().duration(600)
-	    .attr("font-size", "100px")
-	    .attr("transform", "rotate(-20 380 100)")
-	    .transition().duration(600)
-	    .attr("font-size", "60px")
-	    .attr("transform", "rotate(0 380, 100)")
-	    .transition().duration(600)
-	    .attr("font-size", "100px")
-	    .attr("transform", "rotate(10 380 100)")
+	    .transition().ease(d3.easeElastic).duration(800)
+	    .attr("font-size", "5em")
+	    .transition().duration(200)
+	    .attr("font-size", "2em")
 	    .on("end", repeatWin);
     }
 }
 
-
-var selected = null;
-var target = null;
-
-var flag = false;
-openRoom(startingRoom);
-setOpenRooms(startingRoom);
+function init(){
+    selectedRoom = startingRoom;
+    openRoom(startingRoom);
+    setOpenRooms(startingRoom);
+}
