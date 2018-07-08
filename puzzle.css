@@ -45,6 +45,11 @@ body {
     stroke-width: 1.5px;
 }
 
+.hand {
+    stroke: #000;
+    stroke-width: 1.5px;
+}
+
 .grabbed {
     stroke: #000;
     cursor: none;
@@ -60,4 +65,12 @@ body {
 
 .filled {
     fill: url(#mainGradient);
+}
+#chart {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 10vh;
+    bottom: 0px;
 }
