@@ -96,18 +96,17 @@ function draw(){
 
 // Activate light. argument is the index of the light
 function activateLight(light){
-    if (light+1 == data.length) winner();
-    console.log("activatelight: " + light);
+    if (parseInt(light) == data.length-1) {
+	winner();
+    }
     d3.selectAll(".slot.group"+light).classed("open clickable", true);
 }
 
 function deActivateLight(light) {
-    console.log("deActivatelight: " + light);
     d3.selectAll(".slot.group"+light).classed("open clickable", false);
 }
 
 function flash(slots){
-    console.log("flash: ", slots);
     slots.call(d3.drag().on("start", clicked));
     var type = slots.classed("hand") ? ".hand":".slot";
     repeat();
@@ -213,3 +212,4 @@ var target = null;
 draw();
 activateLight(0);
 d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
+
