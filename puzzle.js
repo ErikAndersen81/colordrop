@@ -166,14 +166,16 @@ function draw(){
 	.attr("xlink:href","leftHand.svg")
 	.attr("width", size/4)
 	.attr("height", size/4)
-	.attr("y", size*3/4);
+	.attr("y", size*3/4)
+	.attr("pointer-events", "none");
 
     puzzle.append("image")
 	.attr("xlink:href","rightHand.svg")
 	.attr("width", size/4)
 	.attr("height", size/4)
 	.attr("y", size*3/4)
-	.attr("x", size*3/4);
+	.attr("x", size*3/4)
+	.attr("pointer-events", "none");
 }
 
 // Makes selectable slots flash
