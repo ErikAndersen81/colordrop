@@ -62,21 +62,6 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="ball"
-     style="filter:url(#filter850)"
-     transform="translate(-120.94749,-93.48063)">
-    <ellipse
-       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.58529556;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       id="path844"
-       cx="-188.41133"
-       cy="14.794561"
-       rx="14.489224"
-       ry="13.754232"
-       transform="matrix(-0.85239461,-0.52289905,-0.52289905,0.85239461,0,0)" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="hand"
      transform="translate(-120.94749,-93.48063)">

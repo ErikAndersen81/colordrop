@@ -69,8 +69,19 @@ function winner(){
 function draw(){
     var chartDiv = document.getElementById("chart");
     var puzzle = d3.select(chartDiv).append("svg");
-    var groups = puzzle
-	.selectAll("g")
+
+    // Create the links
+    var link = puzzle.append("g")
+	.attr("class", "links")
+	.selectAll("line")
+	.data(links)
+	.enter().append("line")
+	.attr("stroke-width", 5)
+	.attr("stroke", "#090")
+	.attr("stroke-opacity", 0.6);
+
+    // Create the nodes for holding the lights
+    var nodes = puzzle.selectAll("g:not(.links)")
 	.data(data)
 	.enter()
 	.append("g")
@@ -88,75 +99,81 @@ function draw(){
         .attr("width", size)
         .attr("height", size);
 
-    // Create the links
-    var link = puzzle.append("g")
-	.attr("class", "links")
-	.selectAll("line")
-	.data(links)
-	.enter().append("line")
-	.attr("stroke-width", 5)
-	.attr("stroke", "#090")
-	.attr("stroke-opacity", 0.6);
-    
     // Draw the lights
-    groups
+    nodes
 	.append("circle")
 	.attr("r", function(d){return size/6;})
 	.style("fill", getColor)
 	.attr("class", function(d,i){return "light group"+i;})
 	.attr("light", function(d, i){return i;});
 
+    var r = (size/6)*(2.8/7),
+	p = size/12,
+	q = p*6/7,
+	s = p*4/7;
+    
     // Draw the active slots
-    groups
+    nodes
 	.append("circle")
-	.attr("r", function(d){return size/13;})
+	.attr("r", function(d){return r;})
 	.style("fill", function(d){return d.a;})
-	.attr("cx", function(d, i){return size/17.5;})
-	.attr("cy", function(d, i){return size/17.5;})
+	.attr("cx", function(d, i){return q})
+	.attr("cy", function(d, i){return -s})
 	.attr("class", function(d,i){return "slot group"+i;})
 	.attr("light", function(d, i){return i;})
 	.attr("slot", "a");
 
-    groups
+    nodes
 	.append("circle")
-	.attr("r", function(d){return size/13;})
+	.attr("r", function(d){return r;})
 	.style("fill", function(d){return d.b;})
-	.attr("cx", function(d, i){return -size/17.5;})
-	.attr("cy", function(d, i){return -size/17.5})
+	.attr("cx", function(d, i){return -q;})
+	.attr("cy", function(d, i){return -s})
 	.attr("class", function(d,i){return "slot group"+i;})
 	.attr("light", function(d, i){return i;})
 	.attr("slot", "b");
     
-    // Create shape for the inactive slot. (Star)
-    var symbolGenerator = d3.symbol()
-	.type(d3.symbolStar)
-	.size(size*2);
-    var sym = symbolGenerator();
-
     // Draw the inactive slot
-    puzzle.selectAll("g.nodes")
-	.append("path")
-	.attr("d", sym)
+    nodes
+	.append("circle")
+	.attr("r", function(d){return r})
+	.attr("cx", function(d, i){return 0;})
+	.attr("cy", function(d, i){return p})
 	.style("fill", function(d){return d.c;})
 	.attr("class", function(d,i){return "slot group"+i;})
 	.attr("light", function(d, i){return i;})
 	.attr("slot", "c");
-    // Create the hands below last row of lights
+    
+    // Create the 'hands'.
     puzzle
 	.append("circle")
 	.attr("class", "hand")
 	.attr("r", size/15)
-	.attr("cx", size/3)
-	.attr("cy", (Math.floor(data.length/3)*size)/3)
+	.attr("cx", size*0.93/6)
+	.attr("cy", 5.07*size/6)
 	.style("fill", "rgb(255, 255, 255)");
 
     puzzle
 	.append("circle")
 	.attr("class", "hand")
 	.attr("r", size/15)
-	.attr("cx", (2*size)/3)
-	.attr("cy", (Math.floor(data.length/3)*size)/3)
+	.attr("cx", size-size*0.93/6)
+	.attr("cy", 5.07*size/6)
 	.style("fill", "rgb(255, 255, 255)");
+
+    // Add the drawings of actual hands
+    puzzle.append("image")
+	.attr("xlink:href","leftHand.svg")
+	.attr("width", size/4)
+	.attr("height", size/4)
+	.attr("y", size*3/4);
+
+    puzzle.append("image")
+	.attr("xlink:href","rightHand.svg")
+	.attr("width", size/4)
+	.attr("height", size/4)
+	.attr("y", size*3/4)
+	.attr("x", size*3/4);
 }
 
 // Makes selectable slots flash
