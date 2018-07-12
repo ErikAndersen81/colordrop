@@ -46,8 +46,8 @@ function winner(){
 
     var text = puzzle.append("text")
 	.classed('filled', true)
-	.attr("x", "50%")
-	.attr("y", "35%")
+	.attr("x", size/2)
+	.attr("y", size/3)
 	.attr("fill", "red")
 	.attr("stroke", "black")
 	.attr("id", "win")
@@ -75,10 +75,8 @@ function draw(){
 	.attr("class", "links")
 	.selectAll("line")
 	.data(links)
-	.enter().append("line")
-	.attr("stroke-width", 5)
-	.attr("stroke", "#090")
-	.attr("stroke-opacity", 0.6);
+	.enter().append("line");
+	
 
     // Create the nodes for holding the lights
     var nodes = puzzle.selectAll("g:not(.links)")
@@ -119,7 +117,7 @@ function draw(){
 	.style("fill", function(d){return d.a;})
 	.attr("cx", function(d, i){return q})
 	.attr("cy", function(d, i){return -s})
-	.attr("class", function(d,i){return "slot group"+i;})
+	.attr("class", function(d,i){return "slot active group"+i;})
 	.attr("light", function(d, i){return i;})
 	.attr("slot", "a");
 
@@ -129,18 +127,18 @@ function draw(){
 	.style("fill", function(d){return d.b;})
 	.attr("cx", function(d, i){return -q;})
 	.attr("cy", function(d, i){return -s})
-	.attr("class", function(d,i){return "slot group"+i;})
+	.attr("class", function(d,i){return "slot active group"+i;})
 	.attr("light", function(d, i){return i;})
 	.attr("slot", "b");
     
     // Draw the inactive slot
     nodes
 	.append("circle")
-	.attr("r", function(d){return r})
+	.attr("r", function(d){return r*0.8})
 	.attr("cx", function(d, i){return 0;})
 	.attr("cy", function(d, i){return p})
 	.style("fill", function(d){return d.c;})
-	.attr("class", function(d,i){return "slot group"+i;})
+	.attr("class", function(d,i){return "slot inactive group"+i;})
 	.attr("light", function(d, i){return i;})
 	.attr("slot", "c");
     
@@ -258,7 +256,7 @@ function lightChange(light) {
 	.force("charge", d3.forceManyBody()
 	       .strength(size/12))
 	.force("collide", d3.forceCollide()
-		     .radius(function(d){return d.scale})
+		     .radius(function(d){return d.scale*1.1})
 		     .iterations(9));
     simulation.restart();
 }
@@ -280,12 +278,11 @@ function move() {
 	.force("center", d3.forceCenter(size/2,size/3))
 	.force("charge", d3.forceManyBody().strength(size/12))
 	.force("collide", d3.forceCollide()
-	       .radius(function(d){return d.scale})
+	       .radius(function(d){return d.scale*1.1})
 	       .iterations(9)
 	      )
 	
 	.force("links", l)
-	
 	.on("tick", ticked)
     return simulation;
 }
