@@ -1,7 +1,5 @@
 body {
-    
-    background-size: auto;
-    background-color: #000
+    background-color: #000;
 }
 
 .svg-content {
@@ -36,7 +34,7 @@ body {
 }
 
 .slot {
-    stroke: #000;
+    stroke: #555;
 }
 
 .hand {

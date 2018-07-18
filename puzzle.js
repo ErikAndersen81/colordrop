@@ -1,11 +1,23 @@
 // The layout of the puzzle
-data = [
+data1 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", adjacent:[1,3]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(0, 0, 255)", adjacent:[0,4,2]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 255, 0)", c:"rgb(255, 255, 255)", adjacent:[1,5]},
     {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 255)", adjacent:[0,4]},
     {a:"rgb(0, 0, 255)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 0)", adjacent:[3,1]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 0)", adjacent:[2]}
+];
+
+var data = [
+    {a:"rgb(0, 0, 0)", b:"rgb(0, 0, 0)", c:"rgb(255, 0, 0)", adjacent:[3,5,7,1]},
+    {a:"rgb(255, 255, 0)", b:"rgb(0, 0, 255)", c:"rgb(0, 0, 0)", adjacent:[0,6]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", adjacent:[1]},
+    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", adjacent:[0,8]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", adjacent:[3]},
+    {a:"rgb(255, 255, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 0)", adjacent:[0,2]},
+    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 0, 0)", adjacent:[5]},
+    {a:"rgb(0, 0, 0)", b:"rgb(0, 0, 0)", c:"rgb(255, 0, 0)", adjacent:[4,0]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 0)", adjacent:[7]}
 ];
 
 // Global variables to be used in various stuff
@@ -264,8 +276,9 @@ function lightChange(light) {
 // A self explanatory function
 function getColor(d){
     if (d.a == "rgb(255, 255, 255)" && d.b == "rgb(255, 255, 255)" ) return "rgb(0, 0, 0)";
+    if (d.a == "rgb(0, 0, 0)" && d.b == "rgb(0, 0, 0)" ) return "rgb(255, 255, 255)";
     if (d.a == "rgb(255, 255, 255)" || d.b == "rgb(255, 255, 255)" ) return "rgb(255, 255, 255)"
-    return d3.interpolate(d.a,d.b)(0.5);
+    return d3.interpolateCubehelix.gamma(0.1)(d.a,d.b)(0.5);
     
 }
 
@@ -288,20 +301,23 @@ function move() {
 }
 
 function ticked(){
+    var g = d3.selectAll("g.nodes");
+    g.attr("transform", function(d,i, nodes){
+	var radius = nodes[i].children[0].getAttribute("r");
+	var vx = nodes[i].vx,
+	    vy = nodes[i].vy,
+	    x = Math.max(radius, Math.min(size - radius, nodes[i].x)),
+	    y = Math.max(radius, Math.min(size - radius, nodes[i].y)),
+	    scale = nodes[i].scale/(size/6);
+	nodes[i].x = x;
+	nodes[i].y = y;
+	return "matrix("+scale+",0,0,"+scale+","+(x+vx)+","+(y+vy)+")";
+    })
     var link = d3.selectAll("g.links").selectAll("line");
     link
         .attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
-    var g = d3.selectAll("g.nodes");
-    g.attr("transform", function(d,i, nodes){
-	var vx = nodes[i].vx,
-	    vy = nodes[i].vy,
-	    x = nodes[i].x,
-	    y = nodes[i].y,
-	    scale = nodes[i].scale/(size/6);
-	return "matrix("+scale+",0,0,"+scale+","+(x+vx)+","+(y+vy)+")";
-    })
 }
 
