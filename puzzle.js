@@ -5,19 +5,19 @@ data1 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 255, 0)", c:"rgb(255, 255, 255)", adjacent:[1,5]},
     {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 255)", adjacent:[0,4]},
     {a:"rgb(0, 0, 255)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 0)", adjacent:[3,1]},
-    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 0)", adjacent:[2]}
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", adjacent:[2]}
 ];
 
 var data = [
-    {a:"rgb(0, 0, 0)", b:"rgb(0, 0, 0)", c:"rgb(255, 0, 0)", adjacent:[3,5,7,1]},
-    {a:"rgb(255, 255, 0)", b:"rgb(0, 0, 255)", c:"rgb(0, 0, 0)", adjacent:[0,6]},
-    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", adjacent:[1]},
-    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", adjacent:[0,8]},
-    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", adjacent:[3]},
-    {a:"rgb(255, 255, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 0)", adjacent:[0,2]},
-    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 0, 0)", adjacent:[5]},
-    {a:"rgb(0, 0, 0)", b:"rgb(0, 0, 0)", c:"rgb(255, 0, 0)", adjacent:[4,0]},
-    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 0)", adjacent:[7]}
+    {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"rgb(0, 0, 0)", adjacent:[2,4,5,7]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"rgb(0,0,0)", adjacent:[2]},
+    {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"rgb(0,0,0)", adjacent:[1,0]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 0)", d:"rgb(0,0,0)", adjacent:[5]},
+    {a:"rgb(255, 255, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 255)", d:"rgb(0,0,0)", adjacent:[0,6]},
+    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(0,0,0)", d:"rgb(0,0,0)", adjacent:[0,3]},
+    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 0, 0)", d:"rgb(0,0,0)", adjacent:[4]},
+    {a:"rgb(255, 255, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"rgb(0,0,0)", adjacent:[0,8]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0,0,0)", d:"rgb(0,0,0)", adjacent:[7]}
 ];
 
 // Global variables to be used in various stuff
@@ -33,10 +33,10 @@ d3.selectAll("g.nodes").property("scale", size/12);
 d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
 
 activateLight(0);
-var simulation = move();
+move();
 
 
- // Displays a gratulatory expression in a festive manner.
+// Displays a gratulatory expression in a festive manner.
 function winner(){
     d3.selectAll(".slot")
 	.classed("clickable", false)
@@ -263,14 +263,7 @@ function lightChange(light) {
 	else {deActivateLight(i);}
     })
     activateLight(light);
-    simulation
-	.force("center", d3.forceCenter(size/2,size/3))
-	.force("charge", d3.forceManyBody()
-	       .strength(size/12))
-	.force("collide", d3.forceCollide()
-		     .radius(function(d){return d.scale*1.1})
-		     .iterations(9));
-    simulation.restart();
+    move();
 }
 
 // A self explanatory function
@@ -285,19 +278,21 @@ function getColor(d){
 
 function move() {
     var nodes = d3.selectAll("g.nodes").nodes();
-    var l = d3.forceLink(links);
+
+    var link = d3.forceLink(links)
+	.distance(size/6)
+	.strength(0.4)
+	.iterations(9);
+
+    var collide = d3.forceCollide()
+	.radius(function(d){return d.scale*1.1})
+	.iterations(9);
     
     var simulation = d3.forceSimulation(nodes)
 	.force("center", d3.forceCenter(size/2,size/3))
-	.force("charge", d3.forceManyBody().strength(size/12))
-	.force("collide", d3.forceCollide()
-	       .radius(function(d){return d.scale*1.1})
-	       .iterations(9)
-	      )
-	
-	.force("links", l)
+	.force("collide", collide)	
+	.force("links", link)
 	.on("tick", ticked)
-    return simulation;
 }
 
 function ticked(){
@@ -309,8 +304,8 @@ function ticked(){
 	    x = Math.max(radius, Math.min(size - radius, nodes[i].x)),
 	    y = Math.max(radius, Math.min(size - radius, nodes[i].y)),
 	    scale = nodes[i].scale/(size/6);
-	nodes[i].x = x;
-	nodes[i].y = y;
+	nodes[i].x = x+vx;
+	nodes[i].y = y+vy;
 	return "matrix("+scale+",0,0,"+scale+","+(x+vx)+","+(y+vy)+")";
     })
     var link = d3.selectAll("g.links").selectAll("line");
