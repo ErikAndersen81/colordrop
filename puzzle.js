@@ -9,7 +9,7 @@ data1 = [
 ];
 
 var data = [
-    {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"rgb(255, 255, 255)", adjacent:[2,4,5,7]},
+    {a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"rgb(255, 255, 255)", adjacent:[2,4,5,7]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"", adjacent:[2]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"", adjacent:[1,0]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 0)", d:"", adjacent:[5]},
@@ -112,7 +112,7 @@ function draw(){
     // Draw the lights
     nodes
 	.append("circle")
-	.attr("r", function(d){return size/6;})
+	.attr("r", function(d){return size/7;})
 	.style("fill", getColor)
 	.attr("class", function(d,i){return "light group"+i;})
 	.attr("light", function(d, i){return i;});
@@ -239,7 +239,7 @@ function activateLight(light){
     d3.selectAll(".slot.group"+light).classed("open clickable", true);
     d3.select("#group"+light)
 	.attr("open", true)
-	.property("scale", size/6);
+	.property("scale", size/7);
 }
 
 function deActivateLight(light) {
@@ -278,7 +278,7 @@ function move() {
 
     var link = d3.forceLink(links)
 	.distance(size/6)
-	.strength(0.4)
+	.strength(1)
 	.iterations(9);
 
     var collide = d3.forceCollide()
@@ -289,6 +289,7 @@ function move() {
 	.force("center", d3.forceCenter(size/2,size/3))
 	.force("collide", collide)	
 	.force("links", link)
+	.force("charge", d3.forceManyBody().strength(-500))
 	.on("tick", ticked)
 }
 
