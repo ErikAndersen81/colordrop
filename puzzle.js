@@ -9,15 +9,15 @@ data1 = [
 ];
 
 var data = [
-    {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"rgb(0, 0, 0)", adjacent:[2,4,5,7]},
-    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"rgb(0,0,0)", adjacent:[2]},
-    {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"rgb(0,0,0)", adjacent:[1,0]},
-    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 0)", d:"rgb(0,0,0)", adjacent:[5]},
-    {a:"rgb(255, 255, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 255)", d:"rgb(0,0,0)", adjacent:[0,6]},
-    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(0,0,0)", d:"rgb(0,0,0)", adjacent:[0,3]},
-    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 0, 0)", d:"rgb(0,0,0)", adjacent:[4]},
-    {a:"rgb(255, 255, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"rgb(0,0,0)", adjacent:[0,8]},
-    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0,0,0)", d:"rgb(0,0,0)", adjacent:[7]}
+    {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"rgb(255, 255, 255)", adjacent:[2,4,5,7]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"", adjacent:[2]},
+    {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"", adjacent:[1,0]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 0)", d:"", adjacent:[5]},
+    {a:"rgb(255, 255, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 255)", d:"", adjacent:[0,6]},
+    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"", d:"", adjacent:[0,3]},
+    {a:"rgb(255, 0, 0)", b:"rgb(0, 0, 255)", c:"rgb(255, 0, 0)", d:"", adjacent:[4]},
+    {a:"rgb(255, 255, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"", adjacent:[0,8]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[7]}
 ];
 
 // Global variables to be used in various stuff
@@ -117,42 +117,39 @@ function draw(){
 	.attr("class", function(d,i){return "light group"+i;})
 	.attr("light", function(d, i){return i;});
 
-    var r = (size/6)*(2.8/7),
-	p = size/12,
-	q = p*6/7,
-	s = p*4/7;
+    // Set the default radius
+    var r = (size/6)*(2.8/7);
     
-    // Draw the active slots
-    nodes
-	.append("circle")
-	.attr("r", function(d){return r;})
-	.style("fill", function(d){return d.a;})
-	.attr("cx", function(d, i){return q})
-	.attr("cy", function(d, i){return -s})
-	.attr("class", function(d,i){return "slot active group"+i;})
-	.attr("light", function(d, i){return i;})
-	.attr("slot", "a");
+    // Create the slots
+    var slots=['a','b','c','d'];
+    slots.forEach( function(e) {
+	var sz, cls, cx, cy;
+	if (e=='a' || e=='b') {
+	    sz = r*1;
+	    cls = "slot active group";
+	    cx = e=='a' ? r : -r;
+	    cy = 0;
+	}
+	else {
+	    sz = r*0.8;
+	    cls = "slot inactive group";
+	    cx = 0;
+	    cy = e=='c' ? r : -r;
+	}
+	
+	nodes
+	    .append("circle")
+	    .attr("r", function(d){return sz;})
+	    .attr("cx", function(d, i){return cx;})
+	    .attr("cy", function(d, i){return cy})
+	    .style("fill", function(d){return d[e];})
+	    .attr("class", function(d,i){return d[e] != "" ? cls+i:"empty";})
+	    .attr("light", function(d, i){return i;})
+	    .attr("slot", e);
+    });
 
-    nodes
-	.append("circle")
-	.attr("r", function(d){return r;})
-	.style("fill", function(d){return d.b;})
-	.attr("cx", function(d, i){return -q;})
-	.attr("cy", function(d, i){return -s})
-	.attr("class", function(d,i){return "slot active group"+i;})
-	.attr("light", function(d, i){return i;})
-	.attr("slot", "b");
-    
-    // Draw the inactive slot
-    nodes
-	.append("circle")
-	.attr("r", function(d){return r*0.8})
-	.attr("cx", function(d, i){return 0;})
-	.attr("cy", function(d, i){return p})
-	.style("fill", function(d){return d.c;})
-	.attr("class", function(d,i){return "slot inactive group"+i;})
-	.attr("light", function(d, i){return i;})
-	.attr("slot", "c");
+    // Remove unwanted slots
+    d3.selectAll(".empty").remove();
     
     // Create the 'hands'.
     puzzle
