@@ -8,7 +8,7 @@ data1 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", adjacent:[2]}
 ];
 
-var data = [
+data2 = [
     {a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"rgb(255, 255, 255)", adjacent:[2,4,5,7]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"", adjacent:[2]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"", adjacent:[1,0]},
@@ -20,20 +20,22 @@ var data = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[7]}
 ];
 
+
 // Global variables to be used in various stuff
 var selected = null;
 var target = null;
 var size;
 var links = [];
 for (let i = 0; i < data.length;i++) {
-    data[i].adjacent.forEach(e => links.push({"source":i,"target":parseInt(e)}));
+    data[i].adjacent.forEach(function(e){ if (i<parseInt(e) )links.push({"source":i,"target":parseInt(e)})});
 }
 draw();
+
 d3.selectAll("g.nodes").property("scale", size/12);
 d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
-
 activateLight(0);
-move();
+animateGoal(data.length-1);
+var sim = move();
 
 
 // Displays a gratulatory expression in a festive manner.
@@ -117,6 +119,7 @@ function draw(){
 	.attr("class", function(d,i){return "light group"+i;})
 	.attr("light", function(d, i){return i;});
 
+    
     // Set the default radius
     var r = (size/6)*(2.8/7);
     
@@ -184,6 +187,19 @@ function draw(){
 	.attr("x", size*3/4)
 	.attr("pointer-events", "none");
 }
+
+// Animates the end light
+function animateGoal(lightId){
+    var light = d3.select(".light.group"+lightId);
+    repeat();
+    function repeat(){
+	light.style("fill", getColor)
+	    .transition().duration(600)
+	    .style("fill", "rgb(0, 0, 0)")
+	    .on("end", repeat);
+    }
+}
+
 
 // Makes selectable slots flash
 function flash(slots){
@@ -260,7 +276,8 @@ function lightChange(light) {
 	else {deActivateLight(i);}
     })
     activateLight(light);
-    move();
+    sim.force("collide").radius(function(d){ return d.scale*1.1 });
+    sim.alpha(0.02).restart();
 }
 
 // A self explanatory function
@@ -268,7 +285,7 @@ function getColor(d){
     if (d.a == "rgb(255, 255, 255)" && d.b == "rgb(255, 255, 255)" ) return "rgb(0, 0, 0)";
     if (d.a == "rgb(0, 0, 0)" && d.b == "rgb(0, 0, 0)" ) return "rgb(255, 255, 255)";
     if (d.a == "rgb(255, 255, 255)" || d.b == "rgb(255, 255, 255)" ) return "rgb(255, 255, 255)"
-    return d3.interpolateCubehelix.gamma(0.1)(d.a,d.b)(0.5);
+    return d3.interpolateCubehelix(d.a,d.b)(0.5);
     
 }
 
@@ -278,19 +295,20 @@ function move() {
 
     var link = d3.forceLink(links)
 	.distance(size/6)
-	.strength(1)
+	.strength(2.2)
 	.iterations(9);
 
     var collide = d3.forceCollide()
-	.radius(function(d){return d.scale*1.1})
+	.radius(function(d){ return d.scale*1.1 })
 	.iterations(9);
     
     var simulation = d3.forceSimulation(nodes)
 	.force("center", d3.forceCenter(size/2,size/3))
 	.force("collide", collide)	
 	.force("links", link)
-	.force("charge", d3.forceManyBody().strength(-500))
+	.force("charge", d3.forceManyBody().strength(-50))
 	.on("tick", ticked)
+    return simulation;
 }
 
 function ticked(){
@@ -314,3 +332,4 @@ function ticked(){
         .attr("y2", function(d) { return d.target.y; });
 }
 
+// Set size of nodes using a variant of BFS-algorithm
