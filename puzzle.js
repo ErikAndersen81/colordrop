@@ -29,21 +29,25 @@ var links = [];
 for (let i = 0; i < data.length;i++) {
     data[i].adjacent.forEach(function(e){ if (i<parseInt(e) )links.push({"source":i,"target":parseInt(e)})});
 }
-draw();
+
+draw(getSVG());
 
 d3.selectAll("g.nodes").property("scale", size/12);
 d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
 activateLight(0);
 animateGoal(data.length-1);
+setSizes();
 var sim = move();
-
 
 // Displays a gratulatory expression in a festive manner.
 function winner(){
+    console.log("win");
+    d3.selectAll(".open").classed("clickable", true).call(null);
     d3.selectAll(".slot")
 	.classed("clickable", false)
 	.call(d3.drag().on("start", null));
-    var puzzle = d3.select("svg");
+    d3.select("svg").remove();
+    var puzzle = getSVG();
     var svgDefs = puzzle.append('defs');
     var mainGradient = svgDefs.append('linearGradient')
         .attr('id', 'mainGradient');
@@ -79,10 +83,24 @@ function winner(){
     }
 }
 
-// Initialize the puzzle    
-function draw(){
+function getSVG(){
     var chartDiv = document.getElementById("chart");
-    var puzzle = d3.select(chartDiv).append("svg");
+    var svg = d3.select(chartDiv).append("svg");
+
+    // Extract the width and height that was computed by CSS.
+    var width = chartDiv.clientWidth;
+    var height = chartDiv.clientHeight;
+    size = Math.min(height, width);
+    
+    // Use the extracted size to set the size of an SVG element.
+    svg
+        .attr("width", size)
+        .attr("height", size);
+    return svg;
+}
+
+// Initialize the puzzle    
+function draw(puzzle){
 
     // Create the links
     var link = puzzle.append("g")
@@ -101,16 +119,6 @@ function draw(){
 	.attr("id", function(d, i){return "group"+i;})
 	.attr("open", false)
     
-    // Extract the width and height that was computed by CSS.
-    var width = chartDiv.clientWidth;
-    var height = chartDiv.clientHeight;
-    size = Math.min(height, width);
-
-    // Use the extracted size to set the size of an SVG element.
-    puzzle
-        .attr("width", size)
-        .attr("height", size);
-
     // Draw the lights
     nodes
 	.append("circle")
@@ -193,9 +201,10 @@ function animateGoal(lightId){
     var light = d3.select(".light.group"+lightId);
     repeat();
     function repeat(){
-	light.style("fill", getColor)
-	    .transition().duration(600)
-	    .style("fill", "rgb(0, 0, 0)")
+	light.style("stroke", "rgb(255, 255, 255)")
+	    .style("stroke-width", "15px")
+	    .transition().duration(1300)
+	    .style("stroke-width", "1px")
 	    .on("end", repeat);
     }
 }
@@ -208,7 +217,7 @@ function flash(slots){
     repeat();
     function repeat(){
 	var open = d3.selectAll(type+".clickable");
-	if (open.size() != 0){
+	if (open.size() != 0 ){
 	    d3.selectAll(type+".clickable")
 		.style("stroke", "rgb(180, 180, 180)")
 		.style("stroke-width", "3px")
@@ -243,27 +252,24 @@ function clicked(d, i, nodes){
 	lightChange(selected.attr("light"));
 	d3.selectAll(".open").classed("clickable", true).call(flash)
 	selected = target = null;
+	setSizes();
     }
 }
 
 // Activate and deactivates light. Argument is the index of the light.
 function activateLight(light){
-    console.log("activate: " + light);
     if (parseInt(light) == data.length-1) {
 	winner();
     }
     d3.selectAll(".slot.group"+light).classed("open clickable", true);
     d3.select("#group"+light)
-	.attr("open", true)
-	.property("scale", size/7);
+	.attr("open", true);
 }
 
 function deActivateLight(light) {
-    console.log("deactivate: " + light);
     d3.selectAll(".slot.group"+light).classed("open clickable", false);
     d3.select("#group"+light)
-	.attr("open", false)
-	.property("scale", size/12);
+	.attr("open", false);
 }
 
 // Changes the light's color and set the force to fit the new size.
@@ -276,6 +282,7 @@ function lightChange(light) {
 	else {deActivateLight(i);}
     })
     activateLight(light);
+    setSizes();
     sim.force("collide").radius(function(d){ return d.scale*1.1 });
     sim.alpha(0.02).restart();
 }
@@ -283,7 +290,6 @@ function lightChange(light) {
 // A self explanatory function
 function getColor(d){
     if (d.a == "rgb(255, 255, 255)" && d.b == "rgb(255, 255, 255)" ) return "rgb(0, 0, 0)";
-    if (d.a == "rgb(0, 0, 0)" && d.b == "rgb(0, 0, 0)" ) return "rgb(255, 255, 255)";
     if (d.a == "rgb(255, 255, 255)" || d.b == "rgb(255, 255, 255)" ) return "rgb(255, 255, 255)"
     return d3.interpolateCubehelix(d.a,d.b)(0.5);
     
@@ -293,10 +299,7 @@ function getColor(d){
 function move() {
     var nodes = d3.selectAll("g.nodes").nodes();
 
-    var link = d3.forceLink(links)
-	.distance(size/6)
-	.strength(2.2)
-	.iterations(9);
+    var link = d3.forceLink(links);
 
     var collide = d3.forceCollide()
 	.radius(function(d){ return d.scale*1.1 })
@@ -306,7 +309,7 @@ function move() {
 	.force("center", d3.forceCenter(size/2,size/3))
 	.force("collide", collide)	
 	.force("links", link)
-	.force("charge", d3.forceManyBody().strength(-50))
+	.force("charge", d3.forceManyBody().strength(-1))
 	.on("tick", ticked)
     return simulation;
 }
@@ -333,3 +336,28 @@ function ticked(){
 }
 
 // Set size of nodes using a variant of BFS-algorithm
+function setSizes(){
+    var N = [],
+	adj = [],
+	distance = 0;
+    d3.selectAll("g[open=true]").each(function(d,i, nodes){
+	N.push(parseInt(nodes[i].id.slice(5)));
+    });
+    N.forEach(e => d3.select("#group"+e).property("scale", size/(7)));
+    var brk=0;
+    while(N.length != data.length){
+	brk=brk+1;
+	if(brk>10) break;
+	console.log(N);
+	for(var i=0;i<N.length;i++){
+	    d3.select("#group"+N[i]).each(function(d) {
+		adj = adj.concat([...d.adjacent].filter(x => !N.includes(x)));
+	    });
+	}
+	console.log("adj:", adj);
+	N = N.concat(adj);
+	console.log("N:", N);
+	adj.forEach(e => d3.select("#group"+e).property("scale", size/(7+(5*brk))));
+	adj=[];
+    }
+}
