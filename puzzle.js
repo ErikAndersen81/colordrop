@@ -344,20 +344,15 @@ function setSizes(){
 	N.push(parseInt(nodes[i].id.slice(5)));
     });
     N.forEach(e => d3.select("#group"+e).property("scale", size/(7)));
-    var brk=0;
     while(N.length != data.length){
-	brk=brk+1;
-	if(brk>10) break;
-	console.log(N);
+	distance++;
 	for(var i=0;i<N.length;i++){
 	    d3.select("#group"+N[i]).each(function(d) {
 		adj = adj.concat([...d.adjacent].filter(x => !N.includes(x)));
 	    });
 	}
-	console.log("adj:", adj);
 	N = N.concat(adj);
-	console.log("N:", N);
-	adj.forEach(e => d3.select("#group"+e).property("scale", size/(7+(5*brk))));
+	adj.forEach(e => d3.select("#group"+e).property("scale", size/(7+(5*distance))));
 	adj=[];
     }
 }
