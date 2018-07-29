@@ -15,11 +15,11 @@
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav">
-		    <li class="nav-item">
-			<a class="nav-link" href="howto.html">How to play</a>
+		    <li class="nav-item active">
+			<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
 		    </li>
 		    <li class="nav-item">
-			<a class="nav-link" href="https://github.com/ErikAndersen81/colordrop">Read the code!</a>
+			<a class="nav-link" href="https://github.com/ErikAndersen81/colordrop">Read the code on Github!</a>
 		    </li>
 		    <li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,8 +34,10 @@
 		</ul>
 	    </div>
 	</nav>
-	<div class="container-fluid h-100">
-	    <div class="h-100 w-100 bg-dark text-white" id="chart" style="text-align:center"></div>
+	<div class = "container-fluid">
+	  <h2 align="center" >Welcome to Colordrop</h2>
+	  <h3>How to play</h3>
+	  <p>There should be some sort explanation for the rules here...<p>
 	</div>
 	<!-- Because I used electron to develop the app, some workaround was needed to use jQuery -->
 	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
@@ -44,7 +46,6 @@
 	<script src="https://d3js.org/d3.v5.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script src="puzzle.js"></script>
 	<!-- Insert this line after script imports -->
 	<script>if (window.module) module = window.module;</script>
 	<script>

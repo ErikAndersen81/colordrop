@@ -1,12 +1,10 @@
-body {
-    background-color: #000;
+html, body {
+    height: 100%;
 }
 
-.svg-content {
-    position: relative;
-    margin: auto;
-    width: 90vmin;
-    height: 90vmin;
+.container-fluid {
+    height: 100%;
+    overflow-y: hidden; /* don't show content that exceeds my height */
 }
 
 .links {
@@ -52,12 +50,4 @@ body {
 
 .filled {
     fill: url(#mainGradient);
-}
-#chart {
-    text-align: center;
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 10vh;
-    bottom: 0px;
 }

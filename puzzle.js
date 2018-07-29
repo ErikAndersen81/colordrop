@@ -8,7 +8,7 @@ data1 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", adjacent:[2]}
 ];
 
-data = [
+data2 = [
     {a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"rgb(255, 255, 255)", adjacent:[2,4,5,7]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"", adjacent:[2]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"", adjacent:[1,0]},
@@ -20,10 +20,13 @@ data = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[7]}
 ];
 
+data = [{a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 0, 0)", d:"", adjacent:[1]},
+    {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[0]}]
 
 // Global variables to be used in various stuff
 var selected = null;
 var target = null;
+var won = false;
 var size;
 var links = [];
 for (let i = 0; i < data.length;i++) {
@@ -31,7 +34,6 @@ for (let i = 0; i < data.length;i++) {
 }
 
 draw(getSVG());
-
 d3.selectAll("g.nodes").property("scale", size/12);
 d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
 activateLight(0);
@@ -42,10 +44,6 @@ var sim = move();
 // Displays a gratulatory expression in a festive manner.
 function winner(){
     console.log("win");
-    d3.selectAll(".open").classed("clickable", true).call(null);
-    d3.selectAll(".slot")
-	.classed("clickable", false)
-	.call(d3.drag().on("start", null));
     d3.select("svg").remove();
     var puzzle = getSVG();
     var svgDefs = puzzle.append('defs');
@@ -253,13 +251,14 @@ function clicked(d, i, nodes){
 	d3.selectAll(".open").classed("clickable", true).call(flash)
 	selected = target = null;
 	setSizes();
+	if (won) winner();
     }
 }
 
 // Activate and deactivates light. Argument is the index of the light.
 function activateLight(light){
     if (parseInt(light) == data.length-1) {
-	winner();
+	won=true;
     }
     d3.selectAll(".slot.group"+light).classed("open clickable", true);
     d3.select("#group"+light)
