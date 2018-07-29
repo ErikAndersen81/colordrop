@@ -1,5 +1,5 @@
 // The layout of the puzzle
-data1 = [
+data2 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", adjacent:[1,3]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(0, 0, 255)", adjacent:[0,4,2]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 255, 0)", c:"rgb(255, 255, 255)", adjacent:[1,5]},
@@ -8,7 +8,7 @@ data1 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", adjacent:[2]}
 ];
 
-data2 = [
+data3 = [
     {a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"rgb(255, 255, 255)", adjacent:[2,4,5,7]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"", adjacent:[2]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"", adjacent:[1,0]},
@@ -20,26 +20,44 @@ data2 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[7]}
 ];
 
-data = [{a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 0, 0)", d:"", adjacent:[1]},
+data1 = [{a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 0, 0)", d:"", adjacent:[1]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[0]}]
 
-// Global variables to be used in various stuff
-var selected = null;
-var target = null;
-var won = false;
-var size;
-var links = [];
-for (let i = 0; i < data.length;i++) {
-    data[i].adjacent.forEach(function(e){ if (i<parseInt(e) )links.push({"source":i,"target":parseInt(e)})});
-}
+levels = [data1, data2, data3];
 
-draw(getSVG());
-d3.selectAll("g.nodes").property("scale", size/12);
-d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
-activateLight(0);
-animateGoal(data.length-1);
-setSizes();
-var sim = move();
+for (var i = 1; i<=levels.length;i++){
+    d3.select("#level").append("a").text(i).attr("class", "dropdown-item").attr("onclick", "playLevel("+i+")");
+}
+// Global variables to be used in various stuff
+var selected;
+var target;
+var won;
+var size;
+var links;
+var data;
+var sim;
+
+playLevel(1);
+
+function playLevel(lvl){
+    d3.select("svg").remove();
+    selected = null;
+    target = null;
+    won = false;
+    data = levels[lvl-1];
+    links = [];
+    for (let i = 0; i < data.length;i++) {
+	data[i].adjacent.forEach(function(e){ if (i<parseInt(e) )links.push({"source":i,"target":parseInt(e)})});
+    }
+
+    draw(getSVG());
+    d3.selectAll("g.nodes").property("scale", size/12);
+    d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
+    activateLight(0);
+    animateGoal(data.length-1);
+    setSizes();
+    sim = move();
+}
 
 // Displays a gratulatory expression in a festive manner.
 function winner(){
@@ -179,14 +197,14 @@ function draw(puzzle){
 
     // Add the drawings of actual hands
     puzzle.append("image")
-	.attr("xlink:href","leftHand.svg")
+	.attr("xlink:href","static/images/leftHand.svg")
 	.attr("width", size/4)
 	.attr("height", size/4)
 	.attr("y", size*3/4)
 	.attr("pointer-events", "none");
 
     puzzle.append("image")
-	.attr("xlink:href","rightHand.svg")
+	.attr("xlink:href","static/images/rightHand.svg")
 	.attr("width", size/4)
 	.attr("height", size/4)
 	.attr("y", size*3/4)

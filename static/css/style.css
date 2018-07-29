@@ -14,7 +14,7 @@ html, body {
 }
 
 .clickable {
-    cursor: url("hand.png"), auto;;
+    cursor: url("../images/hand.png"), auto;;
 }
 
 .inactive {
