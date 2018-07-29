@@ -1,5 +1,6 @@
+"use strict;"
 // The layout of the puzzle
-data2 = [
+var data2 = [
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", adjacent:[1,3]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(0, 0, 255)", adjacent:[0,4,2]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 255, 0)", c:"rgb(255, 255, 255)", adjacent:[1,5]},
@@ -7,8 +8,7 @@ data2 = [
     {a:"rgb(0, 0, 255)", b:"rgb(0, 0, 255)", c:"rgb(255, 255, 0)", adjacent:[3,1]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", adjacent:[2]}
 ];
-
-data3 = [
+var data3 = [
     {a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"rgb(255, 255, 255)", adjacent:[2,4,5,7]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"rgb(0, 0, 255)", d:"", adjacent:[2]},
     {a:"rgb(255, 255, 255)", b:"rgb(255, 255, 255)", c:"rgb(255, 0, 0)", d:"", adjacent:[1,0]},
@@ -19,12 +19,10 @@ data3 = [
     {a:"rgb(255, 255, 0)", b:"rgb(255, 0, 0)", c:"rgb(255, 255, 255)", d:"", adjacent:[0,8]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[7]}
 ];
-
-data1 = [{a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 0, 0)", d:"", adjacent:[1]},
+var data1 = [{a:"rgb(255, 255, 255)", b:"rgb(255, 0, 0)", c:"rgb(255, 0, 0)", d:"", adjacent:[1]},
     {a:"rgb(255, 0, 0)", b:"rgb(255, 0, 0)", c:"", d:"", adjacent:[0]}]
-
-levels = [data1, data2, data3];
-
+var levels = [data1, data2, data3];
+// Add the levels to the dropdown menu
 for (var i = 1; i<=levels.length;i++){
     d3.select("#level").append("a").text(i).attr("class", "dropdown-item").attr("onclick", "playLevel("+i+")");
 }
@@ -37,8 +35,10 @@ var links;
 var data;
 var sim;
 
+// Start the default level.
 playLevel(1);
 
+// Removes previous svg and creates a new one with the given level as data
 function playLevel(lvl){
     d3.select("svg").remove();
     selected = null;
@@ -49,14 +49,13 @@ function playLevel(lvl){
     for (let i = 0; i < data.length;i++) {
 	data[i].adjacent.forEach(function(e){ if (i<parseInt(e) )links.push({"source":i,"target":parseInt(e)})});
     }
-
     draw(getSVG());
     d3.selectAll("g.nodes").property("scale", size/12);
     d3.selectAll(".slot.group0").classed("open clickable", true).call(flash);
     activateLight(0);
     animateGoal(data.length-1);
     setSizes();
-    sim = move();
+    sim = getSimulation();
 }
 
 // Displays a gratulatory expression in a festive manner.
@@ -67,17 +66,14 @@ function winner(){
     var svgDefs = puzzle.append('defs');
     var mainGradient = svgDefs.append('linearGradient')
         .attr('id', 'mainGradient');
-
     // Create the stops of the main gradient. Each stop will be assigned
     // a class to style the stop using CSS.
     mainGradient.append('stop')
         .attr('class', 'stop-left')
         .attr('offset', '0');
-
     mainGradient.append('stop')
         .attr('class', 'stop-right')
         .attr('offset', '1');
-
     var text = puzzle.append("text")
 	.classed('filled', true)
 	.attr("x", size/2)
@@ -102,12 +98,10 @@ function winner(){
 function getSVG(){
     var chartDiv = document.getElementById("chart");
     var svg = d3.select(chartDiv).append("svg");
-
     // Extract the width and height that was computed by CSS.
     var width = chartDiv.clientWidth;
     var height = chartDiv.clientHeight;
-    size = Math.min(height, width);
-    
+    size = Math.min(height, width);    
     // Use the extracted size to set the size of an SVG element.
     svg
         .attr("width", size)
@@ -117,15 +111,12 @@ function getSVG(){
 
 // Initialize the puzzle    
 function draw(puzzle){
-
     // Create the links
     var link = puzzle.append("g")
 	.attr("class", "links")
 	.selectAll("line")
 	.data(links)
 	.enter().append("line");
-	
-
     // Create the nodes for holding the lights
     var nodes = puzzle.selectAll("g:not(.links)")
 	.data(data)
@@ -133,8 +124,7 @@ function draw(puzzle){
 	.append("g")
 	.attr("class", "nodes")
 	.attr("id", function(d, i){return "group"+i;})
-	.attr("open", false)
-    
+	.attr("open", false)    
     // Draw the lights
     nodes
 	.append("circle")
@@ -142,11 +132,8 @@ function draw(puzzle){
 	.style("fill", getColor)
 	.attr("class", function(d,i){return "light group"+i;})
 	.attr("light", function(d, i){return i;});
-
-    
     // Set the default radius
-    var r = (size/6)*(2.8/7);
-    
+    var r = (size/6)*(2.8/7);    
     // Create the slots
     var slots=['a','b','c','d'];
     slots.forEach( function(e) {
@@ -162,8 +149,7 @@ function draw(puzzle){
 	    cls = "slot inactive group";
 	    cx = 0;
 	    cy = e=='c' ? r : -r;
-	}
-	
+	}	
 	nodes
 	    .append("circle")
 	    .attr("r", function(d){return sz;})
@@ -174,10 +160,8 @@ function draw(puzzle){
 	    .attr("light", function(d, i){return i;})
 	    .attr("slot", e);
     });
-
     // Remove unwanted slots
-    d3.selectAll(".empty").remove();
-    
+    d3.selectAll(".empty").remove();    
     // Create the 'hands'.
     puzzle
 	.append("circle")
@@ -186,7 +170,6 @@ function draw(puzzle){
 	.attr("cx", size*0.93/6)
 	.attr("cy", 5.07*size/6)
 	.style("fill", "rgb(255, 255, 255)");
-
     puzzle
 	.append("circle")
 	.attr("class", "hand")
@@ -194,7 +177,6 @@ function draw(puzzle){
 	.attr("cx", size-size*0.93/6)
 	.attr("cy", 5.07*size/6)
 	.style("fill", "rgb(255, 255, 255)");
-
     // Add the drawings of actual hands
     puzzle.append("image")
 	.attr("xlink:href","static/images/leftHand.svg")
@@ -202,7 +184,6 @@ function draw(puzzle){
 	.attr("height", size/4)
 	.attr("y", size*3/4)
 	.attr("pointer-events", "none");
-
     puzzle.append("image")
 	.attr("xlink:href","static/images/rightHand.svg")
 	.attr("width", size/4)
@@ -224,7 +205,6 @@ function animateGoal(lightId){
 	    .on("end", repeat);
     }
 }
-
 
 // Makes selectable slots flash
 function flash(slots){
@@ -308,20 +288,16 @@ function lightChange(light) {
 function getColor(d){
     if (d.a == "rgb(255, 255, 255)" && d.b == "rgb(255, 255, 255)" ) return "rgb(0, 0, 0)";
     if (d.a == "rgb(255, 255, 255)" || d.b == "rgb(255, 255, 255)" ) return "rgb(255, 255, 255)"
-    return d3.interpolateCubehelix(d.a,d.b)(0.5);
-    
+    return d3.interpolateCubehelix(d.a,d.b)(0.5);    
 }
 
-
-function move() {
+// Creates the simulation and links for each node
+function getSimulation() {
     var nodes = d3.selectAll("g.nodes").nodes();
-
     var link = d3.forceLink(links);
-
     var collide = d3.forceCollide()
 	.radius(function(d){ return d.scale*1.1 })
 	.iterations(9);
-    
     var simulation = d3.forceSimulation(nodes)
 	.force("center", d3.forceCenter(size/2,size/3))
 	.force("collide", collide)	
@@ -331,6 +307,7 @@ function move() {
     return simulation;
 }
 
+// Updates nodes and links at every tick interval
 function ticked(){
     var g = d3.selectAll("g.nodes");
     g.attr("transform", function(d,i, nodes){
